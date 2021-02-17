@@ -22,7 +22,7 @@
       ]
     },
     "_snowpack/pkg/react.js": {
-      "bytes": 345,
+      "bytes": 389,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
@@ -99,7 +99,7 @@
       ]
     },
     "_snowpack/pkg/react-router-dom.js": {
-      "bytes": 69688,
+      "bytes": 70488,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-ddd228f1.js",
@@ -127,11 +127,41 @@
         }
       ]
     },
+    "_snowpack/pkg/common/ApolloLink-0962a3a5.js": {
+      "bytes": 76323,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
     "_snowpack/pkg/@apollo/client.js": {
-      "bytes": 396861,
+      "bytes": 322645,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/ApolloLink-0962a3a5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/ApolloLink-0962a3a5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@apollo/client/link/error.js": {
+      "bytes": 3375,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/ApolloLink-0962a3a5.js",
           "kind": "import-statement"
         },
         {
@@ -141,16 +171,20 @@
       ]
     },
     "dist/client.js": {
-      "bytes": 231,
+      "bytes": 907,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@apollo/client/link/error.js",
           "kind": "import-statement"
         }
       ]
     },
     "_snowpack/pkg/@auth0/auth0-react.js": {
-      "bytes": 118539,
+      "bytes": 119219,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
@@ -1065,7 +1099,7 @@
       ]
     },
     "dist/components/demo-components/Profile.js": {
-      "bytes": 1577,
+      "bytes": 1655,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1073,6 +1107,10 @@
         },
         {
           "path": "_snowpack/pkg/@auth0/auth0-react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/antd.js",
           "kind": "import-statement"
         }
       ]
@@ -1284,8 +1322,25 @@
       "bytes": 615506,
       "imports": []
     },
+    "dist/pages/callback.js": {
+      "bytes": 698,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@auth0/auth0-react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
     "dist/App.js": {
-      "bytes": 1523,
+      "bytes": 1544,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1326,6 +1381,10 @@
         {
           "path": "dist/less/main.css",
           "kind": "import-statement"
+        },
+        {
+          "path": "dist/pages/callback.js",
+          "kind": "import-statement"
         }
       ]
     },
@@ -1365,8 +1424,8 @@
       "imports": [],
       "exports": [],
       "inputs": {
-        "_snowpack/pkg/@apollo/client.js": {
-          "bytesInOutput": 157096
+        "_snowpack/pkg/common/ApolloLink-0962a3a5.js": {
+          "bytesInOutput": 30262
         },
         "dist/pages/login.js": {
           "bytesInOutput": 147
@@ -1405,7 +1464,7 @@
           "bytesInOutput": 6961
         },
         "_snowpack/pkg/react.js": {
-          "bytesInOutput": 61
+          "bytesInOutput": 76
         },
         "_snowpack/pkg/common/index-8dbeb7e4.js": {
           "bytesInOutput": 124269
@@ -1426,19 +1485,22 @@
           "bytesInOutput": 977
         },
         "_snowpack/pkg/react-router-dom.js": {
-          "bytesInOutput": 22612
+          "bytesInOutput": 22915
+        },
+        "_snowpack/pkg/@apollo/client.js": {
+          "bytesInOutput": 127448
+        },
+        "_snowpack/pkg/@apollo/client/link/error.js": {
+          "bytesInOutput": 877
         },
         "dist/client.js": {
-          "bytesInOutput": 119
-        },
-        "dist/App.js": {
-          "bytesInOutput": 626
+          "bytesInOutput": 304
         },
         "_snowpack/pkg/@auth0/auth0-react.js": {
-          "bytesInOutput": 108316
+          "bytesInOutput": 108452
         },
         "_snowpack/pkg/common/index-83feb445.js": {
-          "bytesInOutput": 19183
+          "bytesInOutput": 19185
         },
         "_snowpack/pkg/common/Notification-c991a118.js": {
           "bytesInOutput": 68782
@@ -1450,7 +1512,7 @@
           "bytesInOutput": 500494
         },
         "_snowpack/pkg/@ant-design/icons.js": {
-          "bytesInOutput": 5158
+          "bytesInOutput": 5122
         },
         "dist/components/auth-components/login-form.js": {
           "bytesInOutput": 1977
@@ -1465,7 +1527,7 @@
           "bytesInOutput": 179
         },
         "dist/routes.js": {
-          "bytesInOutput": 1020
+          "bytesInOutput": 834
         },
         "dist/components/auth-components/register-form.js": {
           "bytesInOutput": 1262
@@ -1477,7 +1539,7 @@
           "bytesInOutput": 852
         },
         "_snowpack/pkg/lodash.js": {
-          "bytesInOutput": 74050
+          "bytesInOutput": 74259
         },
         "dist/components/gallery-components/gallery-card.js": {
           "bytesInOutput": 174
@@ -1564,7 +1626,7 @@
           "bytesInOutput": 648
         },
         "dist/components/demo-components/query-demo.js": {
-          "bytesInOutput": 386
+          "bytesInOutput": 361
         },
         "dist/components/demo-components/LoginButton.js": {
           "bytesInOutput": 111
@@ -1573,7 +1635,7 @@
           "bytesInOutput": 134
         },
         "dist/components/demo-components/Profile.js": {
-          "bytesInOutput": 701
+          "bytesInOutput": 656
         },
         "_snowpack/pkg/history.js": {
           "bytesInOutput": 2298
@@ -1584,20 +1646,20 @@
         "dist/components/spinner/index.js": {
           "bytesInOutput": 59
         },
-        "dist/components/layout-app/navigation.js": {
-          "bytesInOutput": 1222
-        },
-        "dist/components/layout-app/index.js": {
-          "bytesInOutput": 412
-        },
         "dist/less/main.css": {
           "bytesInOutput": 0
+        },
+        "dist/pages/callback.js": {
+          "bytesInOutput": 329
+        },
+        "dist/App.js": {
+          "bytesInOutput": 606
         },
         "dist/index.js": {
           "bytesInOutput": 122
         }
       },
-      "bytes": 1259928
+      "bytes": 1260652
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
