@@ -1,5 +1,14 @@
 {
   "routes": [
-    { "src": "/(.*)", "dest": "/" }
+    { "src": "/", "dest": "/" },
+    { "src": "/project", "dest": "/" },
+    { "src": "/callback", "dest": "/" },
+    { "src": "/gallery", "dest": "/" },
+    { "src": "/demo", "dest": "/" },
+    { "src": "/main/(?<id>[^/]+)", "dest": "/" },
+    { "src": "/login", "dest": "/" },
+    { "src": "/register", "dest": "/" },
+    { "src": "/reset-password", "dest": "/" },
+    { "src": "/reset-password/(?<id>[^/]+)", "dest": "/" }
   ]
 }
