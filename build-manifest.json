@@ -1530,7 +1530,7 @@
       ]
     },
     "dist/components/banner/banner-email.js": {
-      "bytes": 1071,
+      "bytes": 1077,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2002,7 +2002,7 @@
           "bytesInOutput": 130
         },
         "dist/components/banner/banner-email.js": {
-          "bytesInOutput": 488
+          "bytesInOutput": 494
         },
         "dist/components/banner/index.js": {
           "bytesInOutput": 177
@@ -2023,7 +2023,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 1277018
+      "bytes": 1277024
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
