@@ -1421,7 +1421,7 @@
       ]
     },
     "dist/routes.js": {
-      "bytes": 1536,
+      "bytes": 1539,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1611,7 +1611,7 @@
       ]
     },
     "dist/App.js": {
-      "bytes": 1945,
+      "bytes": 2153,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1671,6 +1671,10 @@
         },
         {
           "path": "dist/pages/demo.js",
+          "kind": "dynamic-import"
+        },
+        {
+          "path": "dist/pages/callback.js",
           "kind": "dynamic-import"
         }
       ]
@@ -1862,7 +1866,7 @@
           "bytesInOutput": 179
         },
         "dist/routes.js": {
-          "bytesInOutput": 1041
+          "bytesInOutput": 978
         },
         "dist/components/auth-components/register-form.js": {
           "bytesInOutput": 1262
@@ -2003,13 +2007,13 @@
           "bytesInOutput": 132
         },
         "dist/App.js": {
-          "bytesInOutput": 652
+          "bytesInOutput": 788
         },
         "dist/index.js": {
           "bytesInOutput": 122
         }
       },
-      "bytes": 1276321
+      "bytes": 1276394
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
