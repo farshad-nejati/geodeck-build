@@ -267,7 +267,7 @@
       ]
     },
     "dist/apollo/cache.js": {
-      "bytes": 146,
+      "bytes": 111,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -334,8 +334,8 @@
         }
       ]
     },
-    "_snowpack/pkg/common/PlusOutlined-c281d2c3.js": {
-      "bytes": 9416,
+    "_snowpack/pkg/common/PlusOutlined-05da9f47.js": {
+      "bytes": 10367,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
@@ -348,7 +348,7 @@
       ]
     },
     "_snowpack/pkg/antd.js": {
-      "bytes": 1191900,
+      "bytes": 1190985,
       "imports": [
         {
           "path": "_snowpack/pkg/common/Notification-41d8591d.js",
@@ -359,7 +359,7 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/PlusOutlined-c281d2c3.js",
+          "path": "_snowpack/pkg/common/PlusOutlined-05da9f47.js",
           "kind": "import-statement"
         },
         {
@@ -397,18 +397,18 @@
       ]
     },
     "_snowpack/pkg/@ant-design/icons.js": {
-      "bytes": 7246,
+      "bytes": 7268,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/PlusOutlined-c281d2c3.js",
+          "path": "_snowpack/pkg/common/PlusOutlined-05da9f47.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/PlusOutlined-c281d2c3.js",
+          "path": "_snowpack/pkg/common/PlusOutlined-05da9f47.js",
           "kind": "import-statement"
         },
         {
@@ -893,7 +893,7 @@
       ]
     },
     "dist/pages/project.js": {
-      "bytes": 2453,
+      "bytes": 2335,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -909,14 +909,6 @@
         },
         {
           "path": "_snowpack/pkg/antd.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/@apollo/client.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "dist/apollo/cache.js",
           "kind": "import-statement"
         }
       ]
@@ -1484,7 +1476,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 615506,
+      "bytes": 615815,
       "imports": []
     },
     "dist/components/layout-app/navigation.js": {
@@ -1537,8 +1529,42 @@
         }
       ]
     },
+    "dist/components/banner/banner-email.js": {
+      "bytes": 1071,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/antd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@ant-design/icons.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/banner/index.js": {
+      "bytes": 505,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/antd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/banner/banner-email.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
     "dist/components/layout-app/index.js": {
-      "bytes": 1065,
+      "bytes": 1038,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1554,6 +1580,10 @@
         },
         {
           "path": "dist/components/higher-order-components/with-auth.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/banner/index.js",
           "kind": "import-statement"
         }
       ]
@@ -1588,30 +1618,8 @@
         }
       ]
     },
-    "dist/components/banner/BannerVerify.js": {
-      "bytes": 300,
-      "imports": [
-        {
-          "path": "_snowpack/pkg/react.js",
-          "kind": "import-statement"
-        }
-      ]
-    },
-    "dist/Banner.js": {
-      "bytes": 575,
-      "imports": [
-        {
-          "path": "_snowpack/pkg/react.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "dist/components/banner/BannerVerify.js",
-          "kind": "import-statement"
-        }
-      ]
-    },
     "dist/App.js": {
-      "bytes": 2153,
+      "bytes": 2164,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1663,10 +1671,6 @@
         },
         {
           "path": "_snowpack/pkg/antd.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "dist/Banner.js",
           "kind": "import-statement"
         },
         {
@@ -1827,13 +1831,13 @@
           "bytesInOutput": 349
         },
         "_snowpack/pkg/@auth0/auth0-react.js": {
-          "bytesInOutput": 108550
+          "bytesInOutput": 108554
         },
         "dist/GeodeckAuth0Provider.js": {
           "bytesInOutput": 143
         },
         "dist/apollo/cache.js": {
-          "bytesInOutput": 27
+          "bytesInOutput": 16
         },
         "dist/apollo/authenticate-app.js": {
           "bytesInOutput": 66
@@ -1847,11 +1851,11 @@
         "_snowpack/pkg/common/Notification-41d8591d.js": {
           "bytesInOutput": 66541
         },
-        "_snowpack/pkg/common/PlusOutlined-c281d2c3.js": {
-          "bytesInOutput": 4745
+        "_snowpack/pkg/common/PlusOutlined-05da9f47.js": {
+          "bytesInOutput": 5341
         },
         "_snowpack/pkg/antd.js": {
-          "bytesInOutput": 500494
+          "bytesInOutput": 499898
         },
         "_snowpack/pkg/@ant-design/icons.js": {
           "bytesInOutput": 5158
@@ -1997,8 +2001,14 @@
         "dist/components/higher-order-components/with-auth.js": {
           "bytesInOutput": 130
         },
-        "dist/components/layout-app/index.js": {
+        "dist/components/banner/banner-email.js": {
           "bytesInOutput": 488
+        },
+        "dist/components/banner/index.js": {
+          "bytesInOutput": 177
+        },
+        "dist/components/layout-app/index.js": {
+          "bytesInOutput": 441
         },
         "dist/components/spinner/index.js": {
           "bytesInOutput": 59
@@ -2007,22 +2017,22 @@
           "bytesInOutput": 132
         },
         "dist/App.js": {
-          "bytesInOutput": 788
+          "bytesInOutput": 801
         },
         "dist/index.js": {
           "bytesInOutput": 122
         }
       },
-      "bytes": 1276394
+      "bytes": 1277018
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 523587
+          "bytesInOutput": 523832
         }
       },
-      "bytes": 523588
+      "bytes": 523833
     }
   }
 }
