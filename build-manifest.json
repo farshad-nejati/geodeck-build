@@ -645,7 +645,7 @@
       ]
     },
     "dist/pages/callback.js": {
-      "bytes": 1436,
+      "bytes": 1502,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1754,7 +1754,7 @@
           "bytesInOutput": 613
         },
         "dist/pages/callback.js": {
-          "bytesInOutput": 740
+          "bytesInOutput": 794
         },
         "dist/pages/main.js": {
           "bytesInOutput": 88
@@ -2009,7 +2009,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 1276267
+      "bytes": 1276321
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
