@@ -1,6 +1,7 @@
 {
   "routes": [
-    { "src": "/callback", "dest": "/callback" },
-    { "src": "/project", "dest": "/project" }
+    { "src": "/", "dest": "/" },
+    { "src": "/project", "dest": "/" },
+    { "src": "/callback", "dest": "/" }
   ]
 }
