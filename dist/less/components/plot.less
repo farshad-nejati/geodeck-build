@@ -1,0 +1,37 @@
+.plot {
+  overflow: auto;
+  padding: @space-base;
+  padding-left: 0;
+  &__header {
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: @space-base;
+  }
+
+  &__new {
+    padding: @space-base;
+    border: 1px solid @text-color-secondary-fade;
+    border-radius: @border-radius-base;
+    .retina({
+        border-color: @color-fade-retina;
+    });
+
+    &__header {
+      color: @text-color-secondary-fade;
+    }
+
+    &__figure {
+      //   margin: 3rem;
+      padding: @space-base;
+      max-width: 9rem;
+      object-fit: cover;
+      display: block;
+      opacity: 0.2;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -5,6 +5,7 @@
     { "src": "/callback", "dest": "/" },
     { "src": "/gallery", "dest": "/" },
     { "src": "/demo", "dest": "/" },
+    { "src": "/chart-demo", "dest": "/" },
     { "src": "/main/(?<id>[^/]+)", "dest": "/" },
     { "src": "/login", "dest": "/" },
     { "src": "/register", "dest": "/" },

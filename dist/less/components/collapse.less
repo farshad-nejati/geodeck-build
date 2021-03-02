@@ -1,0 +1,21 @@
+.ant-collapse {
+  &-header {
+    color: @text-color !important;
+    border: 1px solid @text-color-secondary;
+    // border-radius: @border-radius-base;
+    border-radius: 14px !important;
+    padding: @input-padding-vertical-base @input-padding-horizontal !important;
+    margin: 0 !important;
+
+    &.selected {
+      border: 1px solid @border-simulation;
+    }
+    &[aria-expanded='true'] {
+      border-color: @border-simulation !important;
+    }
+  }
+
+  & > :not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,97 @@
+#breakpoints() {
+  // less namespace
+
+  //   .breakpoint(@size;@content) when (@size = 'xs') { // less mixin
+  .xs(@content) {
+    // less mixin
+    @media (max-width: 36em) {
+      // < 576px  === antd "xs" size
+      @content();
+    }
+  }
+
+  .sm(@content) {
+    @media (min-width: 36em) {
+      // >= 576px  === antd "sm" size
+      @content();
+    }
+  }
+
+  .md(@content) {
+    @media (min-width: 48em) {
+      // >= 768px  === antd "md" size
+      @content();
+    }
+  }
+
+  .lg(@content) {
+    @media (min-width: 62em) {
+      // >= 992px  === antd "lg" size
+      @content();
+    }
+  }
+  .xl(@content) {
+    @media (min-width: 75em) {
+      // >= 1200px  === antd "xl" size
+      @content();
+    }
+  }
+  .xxl(@content) {
+    @media (min-width: 100em) {
+      // >= 1600px  === antd "xxl" size
+      @content();
+    }
+  }
+}
+
+.retina (@content) {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 227dpi),
+    only screen and (min-resolution: 2dppx) {
+    @content();
+  }
+}
+
+.full-screen(@content) {
+  @media all and (display-mode: fullscreen) {
+    @content();
+  }
+}
+
+// less namespace
+#aspect-ratio-parrent() {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  height: 100%;
+
+  .hd {
+    padding-top: 56.25%;
+  }
+
+  .full-hd {
+    padding-top: 56%;
+    // padding-top: 75%;
+  }
+}
+
+// less mixin
+.aspect-ratio-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+}
+
+
+.overflow-scroll {
+  overflow: auto;
+  max-height: calc(100vh - @layout-header-height - @layout-footer-height);
+}

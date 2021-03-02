@@ -1,0 +1,103 @@
+// Studio 
+@change-bar-height: 30px;
+@border-simulation: #1f8705;
+
+.studio {
+  &__2d {
+    overflow: auto;
+    max-height: calc(100vh - @layout-header-height - @layout-footer-height);
+    height: 100%;
+    padding: @space-base;
+
+    &__panel {
+      display: grid;
+      grid-template-columns: min-content min-content 1fr;
+      grid-gap: @space-base;
+      height: 100%;
+    }
+
+    &__sidebar {
+      display: grid;
+    }
+
+    &__chart {
+    }
+  }
+
+  &__3d {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    flex: 1;
+
+    &__content {
+      position: relative;
+      display: flex;
+    }
+
+    &__main {
+      display: grid;
+      grid-template-rows: 1fr min-content;
+    }
+  }
+  &__space {
+    &--vertical {
+      background-color: @text-color-secondary-fade;
+      width: 1px !important;
+      .retina({
+      background-color: @color-fade-retina;
+
+      });
+    }
+
+    &--horizontal {
+      background-color: @text-color-secondary-fade;
+      height: 1px !important;
+      .retina({
+        background-color: @color-fade-retina;
+        });
+    }
+  }
+
+  &__change-bar {
+    position: absolute;
+    bottom: @space-base;
+    left: @space-base;
+    right: @space-base;
+    height: @change-bar-height;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+  .detail-bar {
+    background-color: @component-background;
+    width: 20vw;
+  }
+
+  .bottom-bar {
+    background-color: @component-background;
+    border-right: 1px solid @text-color-secondary-fade;
+    border-left: 1px solid @text-color-secondary-fade;
+  }
+
+  // &__simulation {
+  //   width: 15rem;
+  //   cursor: pointer;
+  //   font-size: @font-size-base;
+  //   text-transform: capitalize;
+  //   color: @text-color;
+  //   border: 1px solid @text-color-secondary-fade;
+  //   // border-radius: @border-radius-base;
+  //   border-radius: 14px !important;
+  //   padding: @input-padding-vertical-base @input-padding-horizontal;
+  //   background-color: transparent;
+
+  //   &.selected {
+  //     color: @text-color;
+  //     border-color: @border-simulation !important;
+  //   }
+  // }
+}
+
+.canvas {
+}

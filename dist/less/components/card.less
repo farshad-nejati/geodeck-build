@@ -16,6 +16,9 @@
       .aspect-ratio-child();
     }
   }
+  &-body {
+    height: 100%;
+  }
 }
 
 .card {
@@ -31,6 +34,7 @@
     border-radius: 0;
     cursor: pointer;
     border: 1px solid @text-color-secondary-fade;
+    background-color: @image-bg;
 
     // .ant-card-body {
     //   padding: @padding-md;
@@ -39,5 +43,11 @@
 
   &__auth {
     border-radius: 0;
+  }
+
+  &__plot {
+    .ant-card-body {
+      padding: @space-base;
+    }
   }
 }

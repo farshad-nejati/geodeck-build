@@ -3,7 +3,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    grid-gap: 0.5rem;
+    grid-gap: 1rem;
+  }
+
+  &__three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-gap: 1rem;
+    height: 100%;
   }
 
   // responsive grid
@@ -29,5 +37,11 @@
     #breakpoints.xxl({
       grid-template-columns: repeat(auto-fit, minmax(calc( 20% - 2rem ) , 1fr));
     });
+  }
+
+  &__plot {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 1rem;
   }
 }
