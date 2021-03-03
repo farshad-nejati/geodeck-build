@@ -2,32 +2,54 @@
   overflow: auto;
   padding: @space-base;
   padding-left: 0;
+  padding-bottom: 0;
+  margin-bottom: @space-base;
   &__header {
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: @space-base;
   }
 
+  &__chart {
+    // margin-bottom: 1rem;
+  }
+
   &__new {
-    padding: @space-base;
-    border: 1px solid @text-color-secondary-fade;
+    // padding: @space-base;
+    // border: 1px solid @text-color-secondary-fade;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
     border-radius: @border-radius-base;
-    .retina({
-        border-color: @color-fade-retina;
-    });
 
     &__header {
-      color: @text-color-secondary-fade;
+      color: @color-fade;
     }
 
+    &__icons {
+      margin-top: 8px;
+      border: 1px solid @color-fade;
+      flex: 1;
+      align-content: center;
+      grid-template-rows: repeat(auto-fit, minmax(7rem, max-content));
+    }
     &__figure {
       //   margin: 3rem;
       padding: @space-base;
-      max-width: 9rem;
+      margin: 0 !important;
+      max-width: 8rem;
       object-fit: cover;
       display: block;
-      opacity: 0.2;
+      opacity: 0.3;
       cursor: pointer;
+
+      #breakpoints.xl({
+        max-width: 9rem;
+
+      });
+      .retina({
+        max-width: 9rem;
+      });
 
       &:hover {
         opacity: 1;

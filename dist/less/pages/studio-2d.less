@@ -14,16 +14,16 @@
     display: grid;
     grid-template-rows: 37vh min-content 37vh;
     grid-gap: 2rem;
-    border-right: 1px solid @text-color-secondary-fade;
-    padding: @space-base;
-    padding-right: 0;
+    border-right: 1px solid @color-fade;
+    margin: @space-base;
+    margin-right: 0;
     .full-screen ({
       grid-template-rows: 40vh min-content 40vh;
     });;
 
     .retina ({
       grid-template-rows: 40vh min-content 40vh;
-      border-color: @color-fade-retina;
+      border-color: @color-fade;
     });;
 
     & > * {
@@ -52,7 +52,7 @@
 
   &__meta {
     margin-right: 0;
-    cursor: grabbing;
+    // cursor: grabbing;
     &::-webkit-scrollbar {
       height: 0;
     }

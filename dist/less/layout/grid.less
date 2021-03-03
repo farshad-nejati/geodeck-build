@@ -8,10 +8,11 @@
 
   &__three {
     display: grid;
+    grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    grid-gap: 1rem;
-    height: 100%;
+    justify-items: center;
+    // height: 100%;
   }
 
   // responsive grid
@@ -42,6 +43,7 @@
   &__plot {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-content: baseline;
     grid-gap: 1rem;
   }
 }

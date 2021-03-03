@@ -811,7 +811,7 @@
       ]
     },
     "dist/components/demo-page/chart-demo/scatter-demo.js": {
-      "bytes": 3555,
+      "bytes": 6397,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -824,7 +824,7 @@
       ]
     },
     "dist/components/demo-page/chart-demo/bar-demo.js": {
-      "bytes": 1728,
+      "bytes": 4673,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -837,7 +837,7 @@
       ]
     },
     "dist/components/2d-plots/plot-card.js": {
-      "bytes": 696,
+      "bytes": 676,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -858,7 +858,7 @@
       ]
     },
     "dist/components/2d-plots/plot-new.js": {
-      "bytes": 1158,
+      "bytes": 1152,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1789,7 +1789,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 621808,
+      "bytes": 621553,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -1932,7 +1932,7 @@
       ]
     },
     "dist/components/demo-page/chart-demo/line-demo.js": {
-      "bytes": 1035,
+      "bytes": 3950,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1940,6 +1940,10 @@
         },
         {
           "path": "_snowpack/pkg/react-apexcharts.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constant.js",
           "kind": "import-statement"
         }
       ]
@@ -1984,7 +1988,7 @@
       ]
     },
     "dist/components/demo-page/chart-demo/area-demo.js": {
-      "bytes": 1421,
+      "bytes": 2373,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1992,6 +1996,10 @@
         },
         {
           "path": "_snowpack/pkg/react-apexcharts.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constant.js",
           "kind": "import-statement"
         }
       ]
@@ -2010,7 +2018,7 @@
       ]
     },
     "dist/components/demo-page/chart-demo/polar-demo.js": {
-      "bytes": 1024,
+      "bytes": 1856,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2053,7 +2061,7 @@
       ]
     },
     "dist/pages/chart-demo.js": {
-      "bytes": 4749,
+      "bytes": 10293,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2275,7 +2283,7 @@
           "bytesInOutput": 2871
         },
         "dist/pages/chart-demo.js": {
-          "bytesInOutput": 1830
+          "bytesInOutput": 5463
         },
         "_snowpack/env.js": {
           "bytesInOutput": 100
@@ -2407,16 +2415,16 @@
           "bytesInOutput": 188
         },
         "_snowpack/pkg/react-apexcharts.js": {
-          "bytesInOutput": 478667
+          "bytesInOutput": 478677
         },
         "dist/components/demo-page/chart-demo/scatter-demo.js": {
-          "bytesInOutput": 1468
+          "bytesInOutput": 2809
         },
         "dist/components/demo-page/chart-demo/bar-demo.js": {
-          "bytesInOutput": 795
+          "bytesInOutput": 2094
         },
         "dist/components/2d-plots/plot-card.js": {
-          "bytesInOutput": 244
+          "bytesInOutput": 240
         },
         "dist/components/2d-plots/plot-new.js": {
           "bytesInOutput": 678
@@ -2569,7 +2577,7 @@
           "bytesInOutput": 954
         },
         "dist/components/demo-page/chart-demo/line-demo.js": {
-          "bytesInOutput": 496
+          "bytesInOutput": 1628
         },
         "dist/components/demo-page/chart-demo/donut-demo.js": {
           "bytesInOutput": 292
@@ -2581,13 +2589,13 @@
           "bytesInOutput": 427
         },
         "dist/components/demo-page/chart-demo/area-demo.js": {
-          "bytesInOutput": 681
+          "bytesInOutput": 1107
         },
         "dist/components/demo-page/chart-demo/radar-demo.js": {
           "bytesInOutput": 610
         },
         "dist/components/demo-page/chart-demo/polar-demo.js": {
-          "bytesInOutput": 420
+          "bytesInOutput": 811
         },
         "dist/components/demo-page/chart-demo/mixed-updatable-demo.js": {
           "bytesInOutput": 3103
@@ -2599,16 +2607,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 1787159
+      "bytes": 1795387
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 528990
+          "bytesInOutput": 528699
         }
       },
-      "bytes": 528991
+      "bytes": 528700
     }
   }
 }
