@@ -1,0 +1,39 @@
+.studio-3d {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  flex: 1;
+
+  &__main {
+    display: grid;
+    grid-template-rows: 1fr min-content;
+    .overflow-scroll(); // mixins
+  }
+
+  &__content {
+    position: relative;
+    // display: flex;
+    .overflow-scroll(); // mixins
+  }
+
+  // & .studio__change-bar {
+  //   position: sticky;
+  //   margin: auto @space-base;
+  // }
+}
+
+.canvas {
+  height: 100%;
+  // height: calc(100% - @change-bar-height);
+  overflow: auto;
+}
+
+// .detail-bar {
+//   background-color: @component-background;
+//   width: 20vw;
+// }
+
+// .bottom-bar {
+//   background-color: @component-background;
+//   border-right: 1px solid @text-color-secondary-fade;
+//   border-left: 1px solid @text-color-secondary-fade;
+// }

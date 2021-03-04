@@ -280,7 +280,7 @@
       ]
     },
     "dist/apollo/cache.js": {
-      "bytes": 111,
+      "bytes": 197,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -410,7 +410,7 @@
       ]
     },
     "_snowpack/pkg/@ant-design/icons.js": {
-      "bytes": 8068,
+      "bytes": 13695,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
@@ -687,8 +687,12 @@
       ]
     },
     "dist/components/studio-page/change-bar.js": {
-      "bytes": 1002,
+      "bytes": 1464,
       "imports": [
+        {
+          "path": "_snowpack/pkg/@apollo/client.js",
+          "kind": "import-statement"
+        },
         {
           "path": "_snowpack/pkg/antd.js",
           "kind": "import-statement"
@@ -696,11 +700,160 @@
         {
           "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/3d/toolbar-3d.js": {
+      "bytes": 1139,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@ant-design/icons.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/bottom-bar/player.js": {
+      "bytes": 390,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/bottom-bar/simulation-loader.js": {
+      "bytes": 290,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/bottom-bar/variables.js": {
+      "bytes": 883,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/antd.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/bottom-bar/index.js": {
+      "bytes": 884,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/bottom-bar/player.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/bottom-bar/simulation-loader.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/bottom-bar/variables.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@apollo/client.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-apexcharts.js": {
+      "bytes": 480067,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-57a74e37.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-ce016b4a.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/demo-page/chart-demo/bar-demo.js": {
+      "bytes": 4673,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-apexcharts.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/demo-page/chart-demo/bar-stacked-demo.js": {
+      "bytes": 1741,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-apexcharts.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/detail-bar/index.js": {
+      "bytes": 1001,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/antd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@apollo/client.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/demo-page/chart-demo/bar-demo.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/demo-page/chart-demo/bar-stacked-demo.js",
+          "kind": "import-statement"
         }
       ]
     },
     "dist/components/3d/index.js": {
-      "bytes": 1035,
+      "bytes": 1059,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -708,6 +861,18 @@
         },
         {
           "path": "dist/components/studio-page/change-bar.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/3d/toolbar-3d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/bottom-bar/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/detail-bar/index.js",
           "kind": "import-statement"
         }
       ]
@@ -793,38 +958,8 @@
         }
       ]
     },
-    "_snowpack/pkg/react-apexcharts.js": {
-      "bytes": 480067,
-      "imports": [
-        {
-          "path": "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/common/index-57a74e37.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/common/index-ce016b4a.js",
-          "kind": "import-statement"
-        }
-      ]
-    },
     "dist/components/demo-page/chart-demo/scatter-demo.js": {
       "bytes": 6397,
-      "imports": [
-        {
-          "path": "_snowpack/pkg/react.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/react-apexcharts.js",
-          "kind": "import-statement"
-        }
-      ]
-    },
-    "dist/components/demo-page/chart-demo/bar-demo.js": {
-      "bytes": 4673,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1789,7 +1924,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 621553,
+      "bytes": 623039,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -2037,19 +2172,6 @@
           "path": "_snowpack/pkg/antd.js",
           "kind": "import-statement"
         },
-        {
-          "path": "_snowpack/pkg/react.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/react-apexcharts.js",
-          "kind": "import-statement"
-        }
-      ]
-    },
-    "dist/components/demo-page/chart-demo/bar-stacked-demo.js": {
-      "bytes": 1741,
-      "imports": [
         {
           "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
@@ -2340,13 +2462,13 @@
           "bytesInOutput": 349
         },
         "_snowpack/pkg/@auth0/auth0-react.js": {
-          "bytesInOutput": 108646
+          "bytesInOutput": 108678
         },
         "dist/GeodeckAuth0Provider.js": {
           "bytesInOutput": 143
         },
         "dist/apollo/cache.js": {
-          "bytesInOutput": 16
+          "bytesInOutput": 36
         },
         "dist/helpers/authenticate-app.js": {
           "bytesInOutput": 66
@@ -2367,7 +2489,7 @@
           "bytesInOutput": 508030
         },
         "_snowpack/pkg/@ant-design/icons.js": {
-          "bytesInOutput": 5544
+          "bytesInOutput": 9785
         },
         "dist/components/auth/login-form.js": {
           "bytesInOutput": 1977
@@ -2394,10 +2516,37 @@
           "bytesInOutput": 0
         },
         "dist/components/studio-page/change-bar.js": {
-          "bytesInOutput": 579
+          "bytesInOutput": 614
+        },
+        "dist/components/3d/toolbar-3d.js": {
+          "bytesInOutput": 426
+        },
+        "dist/components/bottom-bar/player.js": {
+          "bytesInOutput": 198
+        },
+        "dist/components/bottom-bar/simulation-loader.js": {
+          "bytesInOutput": 124
+        },
+        "dist/components/bottom-bar/variables.js": {
+          "bytesInOutput": 421
+        },
+        "dist/components/bottom-bar/index.js": {
+          "bytesInOutput": 320
+        },
+        "_snowpack/pkg/react-apexcharts.js": {
+          "bytesInOutput": 478677
+        },
+        "dist/components/demo-page/chart-demo/bar-demo.js": {
+          "bytesInOutput": 2094
+        },
+        "dist/components/demo-page/chart-demo/bar-stacked-demo.js": {
+          "bytesInOutput": 795
+        },
+        "dist/components/detail-bar/index.js": {
+          "bytesInOutput": 324
         },
         "dist/components/3d/index.js": {
-          "bytesInOutput": 581
+          "bytesInOutput": 466
         },
         "dist/components/2d/sidebar-simulation.js": {
           "bytesInOutput": 1307
@@ -2414,14 +2563,8 @@
         "dist/components/2d/sidebar-2d.js": {
           "bytesInOutput": 188
         },
-        "_snowpack/pkg/react-apexcharts.js": {
-          "bytesInOutput": 478677
-        },
         "dist/components/demo-page/chart-demo/scatter-demo.js": {
           "bytesInOutput": 2809
-        },
-        "dist/components/demo-page/chart-demo/bar-demo.js": {
-          "bytesInOutput": 2094
         },
         "dist/components/2d-plots/plot-card.js": {
           "bytesInOutput": 240
@@ -2600,23 +2743,20 @@
         "dist/components/demo-page/chart-demo/mixed-updatable-demo.js": {
           "bytesInOutput": 3103
         },
-        "dist/components/demo-page/chart-demo/bar-stacked-demo.js": {
-          "bytesInOutput": 795
-        },
         "dist/index.js": {
           "bytesInOutput": 122
         }
       },
-      "bytes": 1795387
+      "bytes": 1801413
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 528699
+          "bytesInOutput": 529939
         }
       },
-      "bytes": 528700
+      "bytes": 529940
     }
   }
 }
