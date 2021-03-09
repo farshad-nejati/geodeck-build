@@ -68,28 +68,30 @@
   }
 
   &__detail-bar {
-    // position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
+    // position: relative;
+    // top: 0;
+    // bottom: 0;
+    // right: 0;
+
+    .overflow-scroll(); // mixins
 
     background-color: @component-background;
     padding: @space-base;
     display: grid;
-    grid-template-rows: min-content 1fr min-content 1fr;
+    grid-template-rows: 1fr min-content 1fr;
     grid-gap: @space-base;
-    align-items: center;
+    // align-items: center;
 
-    width: 28vw;
+    width: 20vw;
     opacity: 1;
     visibility: visible;
-    // transition: width 0.4s ease, opacity 0.2s ease 0.2s,
-    //   visibility 0.2s ease 0.2s;
+    transition: width 0.4s ease, opacity 0.2s ease 0.2s,
+      visibility 0.2s ease 0.2s, padding 0.2s ease 0.2s;
     .full-screen({
-      width: 28vw;;
+      width: 25vw;;
     });
     .retina({
-      width: 32vw;;
+      width: 30vw;;
     });
 
     &.close {
@@ -98,13 +100,60 @@
       visibility: hidden;
       padding: 0;
     }
+    .ant-form-item-label > label,
+    .ant-input,
+    .ant-select,
+    .ant-select-item,
+    .ant-select-dropdown {
+      font-size: @font-size-sm !important;
+    }
+
+    &__select {
+      & > * {
+        font-size: @font-size-sm !important;
+      }
+    }
+
+    &__tabs {
+      overflow: auto;
+
+      .ant-tabs-content {
+        height: 95%;
+      }
+    }
   }
 
   &__player {
     display: grid;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
+    align-content: space-between;
+    grid-template-rows: repeat(3, min-content);
+    // grid-gap: 1rem;
+
+    &__actions {
+      & > * {
+        font-size: 24px;
+        margin: 0 4px;
+      }
+    }
+
+    &__time-setting {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(3, min-content);
+      justify-content: center;
+      // max-width: min-content;
+      align-items: center;
+    }
+
+    &__slider {
+      width: 75%;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
+
   &__variables {
     grid-gap: 6px;
     label {

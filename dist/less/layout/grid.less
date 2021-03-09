@@ -21,28 +21,28 @@
     grid-gap: 2rem;
 
     #breakpoints.sm({
-      grid-template-columns: repeat(auto-fit, minmax(calc( 50% - 2rem ) , 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(calc( 50% - 2rem ) , 1fr));
     });
 
     #breakpoints.md({
-      grid-template-columns: repeat(auto-fit, minmax(calc( 33% - 2rem ) , 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(calc( 33% - 2rem ) , 1fr));
     });
     #breakpoints.lg({
-      grid-template-columns: repeat(auto-fit, minmax(calc( 25% - 2rem ) , 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(calc( 25% - 2rem ) , 1fr));
     });
 
     #breakpoints.xl({
-      grid-template-columns: repeat(auto-fit, minmax(calc( 25% - 2rem ) , 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(calc( 25% - 2rem ) , 1fr));
     });
 
     #breakpoints.xxl({
-      grid-template-columns: repeat(auto-fit, minmax(calc( 20% - 2rem ) , 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(calc( 20% - 2rem ) , 1fr));
     });
   }
 
   &__plot {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
     align-content: baseline;
     grid-gap: 1rem;
   }
