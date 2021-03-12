@@ -1196,7 +1196,7 @@
       ]
     },
     "dist/apollo/queries/index.js": {
-      "bytes": 962,
+      "bytes": 1000,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -1205,7 +1205,7 @@
       ]
     },
     "dist/components/2d-plots/plot-card.js": {
-      "bytes": 4498,
+      "bytes": 4697,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1287,10 +1287,14 @@
       ]
     },
     "dist/components/2d-plots/index.js": {
-      "bytes": 738,
+      "bytes": 782,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/constant.js",
           "kind": "import-statement"
         },
         {
@@ -1344,10 +1348,6 @@
           "kind": "import-statement"
         }
       ]
-    },
-    "_snowpack/pkg/moment.js": {
-      "bytes": 154033,
-      "imports": []
     },
     "_snowpack/pkg/react-router.js": {
       "bytes": 425,
@@ -1408,7 +1408,7 @@
       ]
     },
     "dist/components/gallery-page/gallery-action.js": {
-      "bytes": 1342,
+      "bytes": 1329,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1434,7 +1434,7 @@
       ]
     },
     "dist/pages/gallery.js": {
-      "bytes": 3722,
+      "bytes": 3331,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1442,10 +1442,6 @@
         },
         {
           "path": "_snowpack/pkg/lodash.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/moment.js",
           "kind": "import-statement"
         },
         {
@@ -2314,7 +2310,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 625226,
+      "bytes": 625651,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -2807,11 +2803,8 @@
         "dist/pages/studio.js": {
           "bytesInOutput": 554
         },
-        "_snowpack/pkg/moment.js": {
-          "bytesInOutput": 61128
-        },
         "dist/pages/gallery.js": {
-          "bytesInOutput": 1351
+          "bytesInOutput": 1340
         },
         "dist/pages/project.js": {
           "bytesInOutput": 547
@@ -2868,19 +2861,19 @@
           "bytesInOutput": 2367
         },
         "_snowpack/pkg/common/index-ed3c0702.js": {
-          "bytesInOutput": 83408
+          "bytesInOutput": 83334
         },
         "_snowpack/pkg/common/parser-1649b75f.js": {
           "bytesInOutput": 32411
         },
         "_snowpack/pkg/@apollo/client.js": {
-          "bytesInOutput": 14626
+          "bytesInOutput": 14618
         },
         "_snowpack/pkg/common/extends-01ef3da5.js": {
           "bytesInOutput": 358
         },
         "_snowpack/pkg/apollo-upload-client.js": {
-          "bytesInOutput": 2996
+          "bytesInOutput": 2974
         },
         "_snowpack/pkg/@apollo/client/link/error.js": {
           "bytesInOutput": 881
@@ -2889,10 +2882,10 @@
           "bytesInOutput": 245
         },
         "dist/apollo/client.js": {
-          "bytesInOutput": 323
+          "bytesInOutput": 317
         },
         "_snowpack/pkg/@auth0/auth0-react.js": {
-          "bytesInOutput": 113358
+          "bytesInOutput": 113124
         },
         "dist/GeodeckAuth0Provider.js": {
           "bytesInOutput": 143
@@ -3021,10 +3014,10 @@
           "bytesInOutput": 702
         },
         "dist/apollo/queries/index.js": {
-          "bytesInOutput": 755
+          "bytesInOutput": 791
         },
         "dist/components/2d-plots/plot-card.js": {
-          "bytesInOutput": 1677
+          "bytesInOutput": 1832
         },
         "dist/components/2d-plots/plot-new.js": {
           "bytesInOutput": 678
@@ -3042,7 +3035,7 @@
           "bytesInOutput": 138
         },
         "dist/components/gallery-page/gallery-action.js": {
-          "bytesInOutput": 611
+          "bytesInOutput": 604
         },
         "dist/components/spinner/index.js": {
           "bytesInOutput": 59
@@ -3207,16 +3200,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 1832236
+      "bytes": 1770804
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 531653
+          "bytesInOutput": 532009
         }
       },
-      "bytes": 531654
+      "bytes": 532010
     }
   }
 }

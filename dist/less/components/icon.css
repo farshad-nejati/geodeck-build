@@ -1,0 +1,7 @@
+.icon__save {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+  width: auto !important;
+  transform: translateY(1px);
+}
