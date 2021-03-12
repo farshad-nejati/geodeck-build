@@ -1,3 +1,5 @@
+@toolbar-space: 6px;
+
 .toolbar {
   // display: grid;
   // grid-gap: @space-base;
@@ -7,14 +9,21 @@
 
   & > * {
     // margin: @space-base;
-    margin: 6px 8px;
-    padding: 6px;
+    margin: @toolbar-space 8px;
+    padding: @toolbar-space;
     cursor: pointer;
-    .coloring()
+    .coloring();
   }
 
   &__3d {
     background-color: @component-background;
     width: @tool-bar-width;
+
+    & > :first-child {
+      margin-top: @toolbar-space * 2;
+    }
+    & > :last-child {
+      margin-bottom: @toolbar-space * 2;
+    }
   }
 }
