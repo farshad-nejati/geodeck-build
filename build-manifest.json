@@ -523,7 +523,7 @@
       ]
     },
     "_snowpack/pkg/@ant-design/icons.js": {
-      "bytes": 20105,
+      "bytes": 35649,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
@@ -800,7 +800,7 @@
       ]
     },
     "dist/components/studio-page/change-bar.js": {
-      "bytes": 1465,
+      "bytes": 1819,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -821,7 +821,7 @@
       ]
     },
     "dist/components/3d-page/toolbar-3d.js": {
-      "bytes": 1139,
+      "bytes": 2032,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -829,6 +829,10 @@
         },
         {
           "path": "_snowpack/pkg/@ant-design/icons.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/antd.js",
           "kind": "import-statement"
         }
       ]
@@ -1055,7 +1059,7 @@
       ]
     },
     "dist/components/3d-page/index.js": {
-      "bytes": 1059,
+      "bytes": 1089,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1308,7 +1312,7 @@
       ]
     },
     "dist/components/2d-page/index.js": {
-      "bytes": 613,
+      "bytes": 643,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1329,7 +1333,7 @@
       ]
     },
     "dist/pages/studio.js": {
-      "bytes": 1302,
+      "bytes": 1348,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2310,7 +2314,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 625651,
+      "bytes": 626499,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -2801,7 +2805,7 @@
           "bytesInOutput": 838
         },
         "dist/pages/studio.js": {
-          "bytesInOutput": 554
+          "bytesInOutput": 582
         },
         "dist/pages/gallery.js": {
           "bytesInOutput": 1340
@@ -2885,7 +2889,7 @@
           "bytesInOutput": 317
         },
         "_snowpack/pkg/@auth0/auth0-react.js": {
-          "bytesInOutput": 113124
+          "bytesInOutput": 113152
         },
         "dist/GeodeckAuth0Provider.js": {
           "bytesInOutput": 143
@@ -2912,7 +2916,7 @@
           "bytesInOutput": 531408
         },
         "_snowpack/pkg/@ant-design/icons.js": {
-          "bytesInOutput": 13635
+          "bytesInOutput": 24917
         },
         "dist/components/auth/login-form.js": {
           "bytesInOutput": 1977
@@ -2939,10 +2943,10 @@
           "bytesInOutput": 0
         },
         "dist/components/studio-page/change-bar.js": {
-          "bytesInOutput": 615
+          "bytesInOutput": 866
         },
         "dist/components/3d-page/toolbar-3d.js": {
-          "bytesInOutput": 426
+          "bytesInOutput": 847
         },
         "dist/components/bottom-bar/player.js": {
           "bytesInOutput": 848
@@ -2984,7 +2988,7 @@
           "bytesInOutput": 283
         },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 466
+          "bytesInOutput": 494
         },
         "dist/components/2d-page/sidebar-simulation.js": {
           "bytesInOutput": 1307
@@ -3026,7 +3030,7 @@
           "bytesInOutput": 431
         },
         "dist/components/2d-page/index.js": {
-          "bytesInOutput": 227
+          "bytesInOutput": 255
         },
         "_snowpack/pkg/react-router.js": {
           "bytesInOutput": 0
@@ -3200,16 +3204,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 1770943
+      "bytes": 1783009
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 532009
+          "bytesInOutput": 532704
         }
       },
-      "bytes": 532010
+      "bytes": 532705
     }
   }
 }

@@ -90,8 +90,23 @@
   object-fit: contain !important;
 }
 
-
 .overflow-scroll {
   overflow: auto;
   max-height: calc(100vh - @layout-header-height - @layout-footer-height);
+}
+
+.coloring {
+  border-radius: @border-radius-base;
+  &:hover {
+    background-color: @text-color-secondary;
+  }
+  &:active {
+    color: @black;
+    background-color: @primary-color;
+  }
+  &.selected {
+    color: @black;
+    background-color: @primary-color;
+    border-color: @primary-color !important;
+  }
 }

@@ -6,8 +6,13 @@
   .overflow-scroll(); // mixins
 
   & > * {
-    margin: @space-base;
+    // margin: @space-base;
+    margin: 6px 8px;
+    padding: 6px;
+    cursor: pointer;
+    .coloring()
   }
+
   &__3d {
     background-color: @component-background;
     width: @tool-bar-width;
