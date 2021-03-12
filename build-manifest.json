@@ -1205,7 +1205,7 @@
       ]
     },
     "dist/components/2d-plots/plot-card.js": {
-      "bytes": 4697,
+      "bytes": 4785,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1287,7 +1287,7 @@
       ]
     },
     "dist/components/2d-plots/index.js": {
-      "bytes": 782,
+      "bytes": 1072,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3017,13 +3017,13 @@
           "bytesInOutput": 791
         },
         "dist/components/2d-plots/plot-card.js": {
-          "bytesInOutput": 1832
+          "bytesInOutput": 1852
         },
         "dist/components/2d-plots/plot-new.js": {
           "bytesInOutput": 678
         },
         "dist/components/2d-plots/index.js": {
-          "bytesInOutput": 312
+          "bytesInOutput": 431
         },
         "dist/components/2d-page/index.js": {
           "bytesInOutput": 227
@@ -3200,7 +3200,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 1770804
+      "bytes": 1770943
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
