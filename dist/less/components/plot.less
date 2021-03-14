@@ -6,6 +6,7 @@
   margin-bottom: @space-base;
   &__header {
     font-weight: 500;
+    max-width: 50%;
     text-transform: capitalize;
     margin-bottom: @space-base;
   }
@@ -15,33 +16,46 @@
   }
 
   &__new {
-    // padding: @space-base;
-    // border: 1px solid @text-color-secondary-fade;
+    padding: @space-base;
+    border: 1px solid @color-fade;
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
     border-radius: @border-radius-base;
+    min-height: 400px;
 
+    #breakpoints.lg({
+      min-height: unset;
+    });
+
+    .retina({
+      border-color: @text-color-secondary;
+    });
+    
     &__header {
-      color: @color-fade;
+      color: @text-color;
     }
 
     &__icons {
       margin-top: 8px;
-      border: 1px solid @color-fade;
+      // border: 1px solid @color-fade;
       flex: 1;
-      align-content: center;
-      grid-template-rows: repeat(auto-fit, minmax(7rem, max-content));
+      align-content: space-around;
+      // align-content: center;
+      // grid-template-rows: repeat(auto-fit, minmax(7rem, max-content));
     }
     &__figure {
       //   margin: 3rem;
-      padding: @space-base;
       margin: 0 !important;
       max-width: 8rem;
       object-fit: cover;
       display: block;
       opacity: 0.3;
       cursor: pointer;
+
+      #breakpoints.lg({
+        padding: @space-base;
+      });
 
       #breakpoints.xl({
         max-width: 9rem;

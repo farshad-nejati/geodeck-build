@@ -1,0 +1,50 @@
+@icon-font-size: 28px;
+
+.icon {
+  &__save {
+    display: flex;
+    align-items: center;
+    margin-left: 5px !important;
+    width: auto !important;
+    transform: translateY(1px);
+  }
+
+  &__custom {
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+    font-size: @icon-font-size;
+
+    svg {
+      fill: @text-color;
+      color: @text-color;
+      stroke: @body-background !important;
+      &:hover {
+        color: @primary-color;
+        fill: @primary-color;
+        stroke: @body-background !important;
+      }
+    }
+
+    &.selected {
+      & > svg {
+        color: @primary-color;
+
+        fill: @primary-color;
+
+        stroke: @body-background !important;
+      }
+    }
+  }
+
+  &__bottom-bar {
+    // font-size: @icon-font-size;
+    transform: rotate(-90deg);
+    // height: 0.9em;
+  }
+
+  &__detail-bar {
+    // font-size: @icon-font-size;
+    transform: rotate(180deg);
+  }
+}

@@ -7,7 +7,6 @@
   }
 }
 
-
 a {
   &.selected {
     color: @primary-color;
@@ -16,4 +15,22 @@ a {
 body {
   font-family: 'Roboto', sans-serif;
   // font-size: 16px;
+}
+
+.text {
+  color: @text-color;
+  cursor: pointer;
+  &:last-child {
+    margin: 0;
+  }
+
+  &:hover {
+    color: @primary-color;
+  }
+  &.selected {
+    color: @primary-color;
+  }
+  &.shadow-selected {
+    color: @primary-8;
+  }
 }

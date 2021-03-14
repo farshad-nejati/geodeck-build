@@ -1,4 +1,5 @@
 .ant-collapse {
+  font-size: 13px;
   &-header {
     color: @text-color !important;
     border: 1px solid @text-color-secondary;
@@ -13,6 +14,10 @@
     &[aria-expanded='true'] {
       border-color: @border-simulation !important;
     }
+  }
+
+  &-content-box {
+    padding-bottom: 0 !important;
   }
 
   & > :not(:last-child) {
