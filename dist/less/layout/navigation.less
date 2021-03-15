@@ -16,6 +16,7 @@
 
     &__menu {
       display: grid;
+      grid-gap: @space-base;
       grid-template-columns: min-content 1fr;
       .ant-menu-item {
         margin-top: @navigation-margin !important;
@@ -29,7 +30,7 @@
 
     &__title {
       margin-top: @navigation-margin;
-      text-transform: capitalize;
+      text-transform: uppercase;
       & > span {
         vertical-align: middle;
       }

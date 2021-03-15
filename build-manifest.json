@@ -1272,7 +1272,7 @@
       ]
     },
     "dist/components/2d-plots/chart-options.js": {
-      "bytes": 4174,
+      "bytes": 4177,
       "imports": []
     },
     "dist/apollo/mutations/index.js": {
@@ -1294,7 +1294,7 @@
       ]
     },
     "dist/components/2d-plots/plot-card.js": {
-      "bytes": 4836,
+      "bytes": 4925,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1696,7 +1696,7 @@
       ]
     },
     "dist/pages/project.js": {
-      "bytes": 1520,
+      "bytes": 1521,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2432,11 +2432,11 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 628940,
+      "bytes": 629763,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
-      "bytes": 3612,
+      "bytes": 3613,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2929,7 +2929,7 @@
           "bytesInOutput": 1340
         },
         "dist/pages/project.js": {
-          "bytesInOutput": 547
+          "bytesInOutput": 548
         },
         "dist/pages/demo.js": {
           "bytesInOutput": 3051
@@ -3136,7 +3136,7 @@
           "bytesInOutput": 2968
         },
         "dist/components/2d-plots/chart-options.js": {
-          "bytesInOutput": 1378
+          "bytesInOutput": 1366
         },
         "dist/apollo/mutations/index.js": {
           "bytesInOutput": 702
@@ -3145,7 +3145,7 @@
           "bytesInOutput": 791
         },
         "dist/components/2d-plots/plot-card.js": {
-          "bytesInOutput": 1873
+          "bytesInOutput": 1922
         },
         "dist/components/2d-plots/plot-new.js": {
           "bytesInOutput": 678
@@ -3280,7 +3280,7 @@
           "bytesInOutput": 0
         },
         "dist/components/layout/navigation.js": {
-          "bytesInOutput": 1716
+          "bytesInOutput": 1717
         },
         "dist/components/higher-order-components/with-auth.js": {
           "bytesInOutput": 130
@@ -3331,16 +3331,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 1786452
+      "bytes": 1786491
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 534775
+          "bytesInOutput": 535474
         }
       },
-      "bytes": 534776
+      "bytes": 535475
     }
   }
 }
