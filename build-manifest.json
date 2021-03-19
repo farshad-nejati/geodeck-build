@@ -1143,8 +1143,57 @@
         }
       ]
     },
+    "_snowpack/pkg/common/three.module-91c9237f.js": {
+      "bytes": 1141435,
+      "imports": []
+    },
+    "_snowpack/pkg/three.js": {
+      "bytes": 10707,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/three.module-91c9237f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/three/examples/jsm/loaders/GLTFLoader.js": {
+      "bytes": 97257,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/three.module-91c9237f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/three/examples/jsm/controls/OrbitControls.js": {
+      "bytes": 25122,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/three.module-91c9237f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/three/examples/jsm/utils/RoughnessMipmapper.js": {
+      "bytes": 6691,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/three.module-91c9237f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/three/examples/jsm/loaders/DRACOLoader.js": {
+      "bytes": 14563,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/three.module-91c9237f.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
     "dist/components/3d-page/index.js": {
-      "bytes": 1059,
+      "bytes": 4394,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1164,6 +1213,34 @@
         },
         {
           "path": "dist/components/detail-bar/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/three.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/three/examples/jsm/loaders/GLTFLoader.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/three/examples/jsm/controls/OrbitControls.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/three/examples/jsm/utils/RoughnessMipmapper.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/three/examples/jsm/loaders/DRACOLoader.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@apollo/client.js",
           "kind": "import-statement"
         }
       ]
@@ -1285,7 +1362,7 @@
       ]
     },
     "dist/apollo/queries/index.js": {
-      "bytes": 1000,
+      "bytes": 1665,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -1294,7 +1371,7 @@
       ]
     },
     "dist/components/2d-plots/plot-card.js": {
-      "bytes": 4925,
+      "bytes": 4992,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2905,7 +2982,7 @@
       "entryPoint": "dist/index.js",
       "inputs": {
         "_snowpack/pkg/common/ApolloLink-60d64c57.js": {
-          "bytesInOutput": 28083
+          "bytesInOutput": 28087
         },
         "dist/pages/login.js": {
           "bytesInOutput": 155
@@ -2938,64 +3015,64 @@
           "bytesInOutput": 5507
         },
         "_snowpack/env.js": {
-          "bytesInOutput": 100
+          "bytesInOutput": 106
         },
         "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js": {
-          "bytesInOutput": 475
+          "bytesInOutput": 477
         },
         "_snowpack/pkg/common/index-57a74e37.js": {
-          "bytesInOutput": 7116
+          "bytesInOutput": 7077
         },
         "_snowpack/pkg/react.js": {
           "bytesInOutput": 90
         },
         "_snowpack/pkg/common/index-8dbeb7e4.js": {
-          "bytesInOutput": 124481
+          "bytesInOutput": 124643
         },
         "_snowpack/pkg/react-dom.js": {
           "bytesInOutput": 0
         },
         "_snowpack/pkg/common/index-ddd228f1.js": {
-          "bytesInOutput": 2474
+          "bytesInOutput": 2542
         },
         "_snowpack/pkg/common/index-ce016b4a.js": {
-          "bytesInOutput": 708
+          "bytesInOutput": 714
         },
         "_snowpack/pkg/common/extends-7477639a.js": {
           "bytesInOutput": 211
         },
         "_snowpack/pkg/common/history-7eb01bc8.js": {
-          "bytesInOutput": 9628
+          "bytesInOutput": 9589
         },
         "_snowpack/pkg/common/objectWithoutPropertiesLoose-d5128f55.js": {
           "bytesInOutput": 138
         },
         "_snowpack/pkg/common/hoist-non-react-statics.cjs-6d72035c.js": {
-          "bytesInOutput": 977
+          "bytesInOutput": 991
         },
         "_snowpack/pkg/common/react-router-f05a7de6.js": {
-          "bytesInOutput": 8879
+          "bytesInOutput": 8925
         },
         "_snowpack/pkg/react-router-dom.js": {
-          "bytesInOutput": 2354
+          "bytesInOutput": 2360
         },
         "_snowpack/pkg/common/inspect-9dd07694.js": {
-          "bytesInOutput": 2367
+          "bytesInOutput": 2381
         },
         "_snowpack/pkg/common/index-ed3c0702.js": {
-          "bytesInOutput": 83334
+          "bytesInOutput": 83461
         },
         "_snowpack/pkg/common/parser-1649b75f.js": {
-          "bytesInOutput": 32411
+          "bytesInOutput": 32467
         },
         "_snowpack/pkg/@apollo/client.js": {
-          "bytesInOutput": 14618
+          "bytesInOutput": 14626
         },
         "_snowpack/pkg/common/extends-01ef3da5.js": {
           "bytesInOutput": 358
         },
         "_snowpack/pkg/apollo-upload-client.js": {
-          "bytesInOutput": 2974
+          "bytesInOutput": 2971
         },
         "_snowpack/pkg/@apollo/client/link/error.js": {
           "bytesInOutput": 881
@@ -3004,10 +3081,10 @@
           "bytesInOutput": 245
         },
         "dist/apollo/client.js": {
-          "bytesInOutput": 317
+          "bytesInOutput": 323
         },
         "_snowpack/pkg/@auth0/auth0-react.js": {
-          "bytesInOutput": 113168
+          "bytesInOutput": 113358
         },
         "dist/GeodeckAuth0Provider.js": {
           "bytesInOutput": 143
@@ -3028,10 +3105,10 @@
           "bytesInOutput": 2241
         },
         "_snowpack/pkg/common/Notification-43b3be01.js": {
-          "bytesInOutput": 66126
+          "bytesInOutput": 66032
         },
         "_snowpack/pkg/antd.js": {
-          "bytesInOutput": 531408
+          "bytesInOutput": 530728
         },
         "_snowpack/pkg/@ant-design/icons.js": {
           "bytesInOutput": 25908
@@ -3085,7 +3162,7 @@
           "bytesInOutput": 320
         },
         "_snowpack/pkg/common/apexcharts.common-db522cbf.js": {
-          "bytesInOutput": 474939
+          "bytesInOutput": 476803
         },
         "_snowpack/pkg/react-apexcharts.js": {
           "bytesInOutput": 3737
@@ -3111,8 +3188,26 @@
         "dist/components/detail-bar/index.js": {
           "bytesInOutput": 283
         },
+        "_snowpack/pkg/common/three.module-91c9237f.js": {
+          "bytesInOutput": 526752
+        },
+        "_snowpack/pkg/three.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/three/examples/jsm/loaders/GLTFLoader.js": {
+          "bytesInOutput": 41450
+        },
+        "_snowpack/pkg/three/examples/jsm/controls/OrbitControls.js": {
+          "bytesInOutput": 11382
+        },
+        "_snowpack/pkg/three/examples/jsm/utils/RoughnessMipmapper.js": {
+          "bytesInOutput": 3868
+        },
+        "_snowpack/pkg/three/examples/jsm/loaders/DRACOLoader.js": {
+          "bytesInOutput": 7018
+        },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 474
+          "bytesInOutput": 1686
         },
         "dist/components/2d-page/sidebar-simulation.js": {
           "bytesInOutput": 810
@@ -3130,7 +3225,7 @@
           "bytesInOutput": 188
         },
         "_snowpack/pkg/lodash.js": {
-          "bytesInOutput": 75810
+          "bytesInOutput": 75982
         },
         "dist/components/demo-page/chart-demo/scatter-demo.js": {
           "bytesInOutput": 2968
@@ -3142,10 +3237,10 @@
           "bytesInOutput": 702
         },
         "dist/apollo/queries/index.js": {
-          "bytesInOutput": 791
+          "bytesInOutput": 1447
         },
         "dist/components/2d-plots/plot-card.js": {
-          "bytesInOutput": 1922
+          "bytesInOutput": 1959
         },
         "dist/components/2d-plots/plot-new.js": {
           "bytesInOutput": 678
@@ -3169,7 +3264,7 @@
           "bytesInOutput": 59
         },
         "_snowpack/pkg/antd/lib/card/Meta.js": {
-          "bytesInOutput": 51310
+          "bytesInOutput": 51220
         },
         "dist/components/project-page/project-card.js": {
           "bytesInOutput": 343
@@ -3331,7 +3426,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 1786491
+      "bytes": 2380684
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
