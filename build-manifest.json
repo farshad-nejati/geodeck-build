@@ -1193,7 +1193,7 @@
       ]
     },
     "dist/components/3d-page/index.js": {
-      "bytes": 4394,
+      "bytes": 4487,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3207,7 +3207,7 @@
           "bytesInOutput": 7018
         },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 1686
+          "bytesInOutput": 1722
         },
         "dist/components/2d-page/sidebar-simulation.js": {
           "bytesInOutput": 810
@@ -3426,7 +3426,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2380684
+      "bytes": 2380720
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
