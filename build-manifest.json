@@ -5,7 +5,7 @@
       "imports": []
     },
     "dist/other/auth0-custom-login-bootstrap.html.inline.0.css": {
-      "bytes": 4363,
+      "bytes": 4373,
       "imports": []
     },
     "dist/other/auth0-custom-reset-password.html.inline.0.css": {
@@ -342,7 +342,7 @@
       "imports": []
     },
     "dist/apollo/client.js": {
-      "bytes": 1319,
+      "bytes": 1318,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -2509,7 +2509,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 629763,
+      "bytes": 664264,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -2951,10 +2951,10 @@
       "entryPoint": "dist/other/auth0-custom-login-bootstrap.html.inline.0.css",
       "inputs": {
         "dist/other/auth0-custom-login-bootstrap.html.inline.0.css": {
-          "bytesInOutput": 3188
+          "bytesInOutput": 3196
         }
       },
-      "bytes": 3189
+      "bytes": 3197
     },
     "../~~bundle~~/dist/other/auth0-custom-reset-password.html.inline.0.css": {
       "imports": [],
@@ -3081,7 +3081,7 @@
           "bytesInOutput": 245
         },
         "dist/apollo/client.js": {
-          "bytesInOutput": 323
+          "bytesInOutput": 322
         },
         "_snowpack/pkg/@auth0/auth0-react.js": {
           "bytesInOutput": 113358
@@ -3426,16 +3426,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2380720
+      "bytes": 2380719
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 535474
+          "bytesInOutput": 561871
         }
       },
-      "bytes": 535475
+      "bytes": 561872
     }
   }
 }
