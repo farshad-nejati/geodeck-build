@@ -2509,7 +2509,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 664264,
+      "bytes": 779161,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -3432,10 +3432,10 @@
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 561871
+          "bytesInOutput": 648449
         }
       },
-      "bytes": 561872
+      "bytes": 648450
     }
   }
 }
