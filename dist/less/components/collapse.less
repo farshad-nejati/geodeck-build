@@ -7,13 +7,14 @@
     border-radius: 14px !important;
     padding: @input-padding-vertical-base @input-padding-horizontal !important;
     margin: 0 !important;
+    // &[aria-expanded='true'] {
+    //   border-color: @border-simulation !important;
+    // }
+  }
 
-    &.selected {
-      border: 1px solid @border-simulation;
-    }
-    &[aria-expanded='true'] {
-      border-color: @border-simulation !important;
-    }
+  &-item.selected > &-header {
+    border: 1px solid @border-simulation;
+
   }
 
   &-content-box {
