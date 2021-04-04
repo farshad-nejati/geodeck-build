@@ -32,7 +32,7 @@
     .retina({
       border-color: @text-color-secondary;
     });
-    
+
     &__header {
       color: @text-color;
     }
@@ -54,6 +54,10 @@
       opacity: 0.3;
       cursor: pointer;
 
+      &.disable {
+        cursor: not-allowed;
+        opacity: 0.3 !important;
+      }
       #breakpoints.lg({
         padding: @space-base;
       });

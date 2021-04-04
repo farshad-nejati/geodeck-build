@@ -393,7 +393,7 @@
       ]
     },
     "dist/apollo/cache.js": {
-      "bytes": 645,
+      "bytes": 906,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -800,7 +800,7 @@
       ]
     },
     "_snowpack/pkg/lodash.js": {
-      "bytes": 543870,
+      "bytes": 543843,
       "imports": [
         {
           "path": "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js",
@@ -1211,7 +1211,7 @@
       ]
     },
     "dist/components/3d-page/index.js": {
-      "bytes": 4487,
+      "bytes": 4409,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1256,28 +1256,54 @@
         {
           "path": "dist/apollo/cache.js",
           "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/helpers/geo-variable.js": {
+      "bytes": 428,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/lodash.js",
+          "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/@apollo/client.js",
+          "path": "dist/helpers/geo-object.js",
           "kind": "import-statement"
         }
       ]
     },
-    "dist/components/2d-page/helper-2d.js": {
-      "bytes": 3738,
+    "dist/helpers/geo-object.js": {
+      "bytes": 1277,
       "imports": [
         {
-          "path": "dist/apollo/cache.js",
+          "path": "_snowpack/pkg/lodash.js",
           "kind": "import-statement"
         },
         {
+          "path": "dist/helpers/geo-variable.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/helpers/container.js": {
+      "bytes": 2553,
+      "imports": [
+        {
           "path": "_snowpack/pkg/lodash.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/geo-object.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/geo-variable.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/components/2d-page/sidebar-container.js": {
-      "bytes": 2031,
+      "bytes": 1896,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1292,17 +1318,17 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/2d-page/helper-2d.js",
+          "path": "dist/apollo/cache.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/apollo/cache.js",
+          "path": "dist/helpers/container.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/components/2d-page/ObjectPoint.js": {
-      "bytes": 1173,
+      "bytes": 1167,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -1317,13 +1343,13 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/2d-page/helper-2d.js",
+          "path": "dist/helpers/container.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/components/2d-page/ObjectLine.js": {
-      "bytes": 1127,
+      "bytes": 1121,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -1338,13 +1364,13 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/2d-page/helper-2d.js",
+          "path": "dist/helpers/container.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/components/2d-page/sidebar-objects.js": {
-      "bytes": 1735,
+      "bytes": 1817,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1363,13 +1389,17 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/2d-page/helper-2d.js",
+          "path": "dist/helpers/geo-variable.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/geo-object.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/components/2d-page/sidebar-2d.js": {
-      "bytes": 1053,
+      "bytes": 932,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1397,25 +1427,29 @@
         }
       ]
     },
-    "dist/components/demo-page/chart-demo/scatter-demo.js": {
-      "bytes": 6781,
+    "_snowpack/pkg/apexcharts.js": {
+      "bytes": 200,
       "imports": [
         {
-          "path": "_snowpack/pkg/react.js",
+          "path": "_snowpack/pkg/common/apexcharts.common-db522cbf.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/react-apexcharts.js",
+          "path": "_snowpack/pkg/common/apexcharts.common-db522cbf.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/components/2d-plots/chart-options.js": {
-      "bytes": 4177,
+      "bytes": 4263,
       "imports": []
     },
     "dist/apollo/mutations/index.js": {
-      "bytes": 862,
+      "bytes": 2172,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -1423,8 +1457,12 @@
         }
       ]
     },
+    "dist/components/2d-page/helper-2d.js": {
+      "bytes": 601,
+      "imports": []
+    },
     "dist/components/2d-plots/plot-card.js": {
-      "bytes": 4992,
+      "bytes": 6081,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1443,15 +1481,11 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/demo-page/chart-demo/scatter-demo.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "dist/components/demo-page/chart-demo/bar-demo.js",
-          "kind": "import-statement"
-        },
-        {
           "path": "_snowpack/pkg/react-apexcharts.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/apexcharts.js",
           "kind": "import-statement"
         },
         {
@@ -1467,14 +1501,6 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/apollo/mutations/index.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "dist/apollo/cache.js",
-          "kind": "import-statement"
-        },
-        {
           "path": "_snowpack/pkg/@apollo/client.js",
           "kind": "import-statement"
         },
@@ -1485,11 +1511,36 @@
         {
           "path": "dist/apollo/cache.js",
           "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/mutations/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/2d-page/helper-2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/helpers/plot.js": {
+      "bytes": 1795,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/lodash.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/geo-object.js",
+          "kind": "import-statement"
         }
       ]
     },
     "dist/components/2d-plots/plot-new.js": {
-      "bytes": 1152,
+      "bytes": 2914,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1502,11 +1553,35 @@
         {
           "path": "dist/constant.js",
           "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@apollo/client.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/mutations/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/queries/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/plot.js",
+          "kind": "import-statement"
         }
       ]
     },
+    "dist/data/plots-data.js": {
+      "bytes": 932,
+      "imports": []
+    },
     "dist/components/2d-plots/index.js": {
-      "bytes": 1137,
+      "bytes": 3155,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1525,7 +1600,31 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/demo-page/chart-demo/bar-demo.js",
+          "path": "_snowpack/pkg/@apollo/client.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/queries/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/data/plots-data.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/plot.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/container.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/geo-object.js",
           "kind": "import-statement"
         }
       ]
@@ -1592,8 +1691,12 @@
         }
       ]
     },
+    "dist/data/containers-data.js": {
+      "bytes": 5255,
+      "imports": []
+    },
     "dist/pages/studio.js": {
-      "bytes": 2819,
+      "bytes": 2634,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1628,11 +1731,15 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/2d-page/helper-2d.js",
+          "path": "_snowpack/pkg/react-router.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/react-router.js",
+          "path": "dist/data/containers-data.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/helpers/container.js",
           "kind": "import-statement"
         }
       ]
@@ -1849,8 +1956,12 @@
         }
       ]
     },
+    "dist/data/projects-data.js": {
+      "bytes": 4920,
+      "imports": []
+    },
     "dist/pages/project.js": {
-      "bytes": 1521,
+      "bytes": 1605,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1882,6 +1993,10 @@
         },
         {
           "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/data/projects-data.js",
           "kind": "import-statement"
         }
       ]
@@ -2612,7 +2727,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 779097,
+      "bytes": 779237,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -2753,23 +2868,6 @@
         }
       ]
     },
-    "_snowpack/pkg/apexcharts.js": {
-      "bytes": 200,
-      "imports": [
-        {
-          "path": "_snowpack/pkg/common/apexcharts.common-db522cbf.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/common/apexcharts.common-db522cbf.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js",
-          "kind": "import-statement"
-        }
-      ]
-    },
     "dist/components/demo-page/chart-demo/line-demo.js": {
       "bytes": 4805,
       "imports": [
@@ -2793,6 +2891,19 @@
     },
     "dist/components/demo-page/chart-demo/donut-demo.js": {
       "bytes": 634,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-apexcharts.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/demo-page/chart-demo/scatter-demo.js": {
+      "bytes": 6781,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3103,13 +3214,13 @@
           "bytesInOutput": 838
         },
         "dist/pages/studio.js": {
-          "bytesInOutput": 779
+          "bytesInOutput": 634
         },
         "dist/pages/gallery.js": {
           "bytesInOutput": 1340
         },
         "dist/pages/project.js": {
-          "bytesInOutput": 548
+          "bytesInOutput": 556
         },
         "dist/pages/demo.js": {
           "bytesInOutput": 3187
@@ -3193,7 +3304,7 @@
           "bytesInOutput": 143
         },
         "dist/apollo/cache.js": {
-          "bytesInOutput": 205
+          "bytesInOutput": 346
         },
         "dist/helpers/authenticate-app.js": {
           "bytesInOutput": 99
@@ -3241,7 +3352,7 @@
           "bytesInOutput": 0
         },
         "_snowpack/pkg/lodash.js": {
-          "bytesInOutput": 76035
+          "bytesInOutput": 76072
         },
         "dist/components/icon/icon-bottom-bar.js": {
           "bytesInOutput": 776
@@ -3253,7 +3364,7 @@
           "bytesInOutput": 788
         },
         "dist/apollo/queries/index.js": {
-          "bytesInOutput": 1941
+          "bytesInOutput": 1939
         },
         "dist/components/3d-page/toolbar-3d.js": {
           "bytesInOutput": 847
@@ -3316,49 +3427,67 @@
           "bytesInOutput": 7018
         },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 1722
+          "bytesInOutput": 1697
         },
-        "dist/components/2d-page/helper-2d.js": {
-          "bytesInOutput": 960
+        "dist/helpers/geo-variable.js": {
+          "bytesInOutput": 92
+        },
+        "dist/helpers/geo-object.js": {
+          "bytesInOutput": 427
+        },
+        "dist/helpers/container.js": {
+          "bytesInOutput": 748
         },
         "dist/components/2d-page/sidebar-container.js": {
-          "bytesInOutput": 663
+          "bytesInOutput": 679
         },
         "dist/components/2d-page/ObjectPoint.js": {
-          "bytesInOutput": 400
+          "bytesInOutput": 428
         },
         "dist/components/2d-page/ObjectLine.js": {
-          "bytesInOutput": 366
+          "bytesInOutput": 394
         },
         "dist/components/2d-page/sidebar-objects.js": {
-          "bytesInOutput": 671
+          "bytesInOutput": 663
         },
         "dist/components/2d-page/sidebar-2d.js": {
-          "bytesInOutput": 337
+          "bytesInOutput": 317
         },
-        "dist/components/demo-page/chart-demo/scatter-demo.js": {
-          "bytesInOutput": 2968
+        "_snowpack/pkg/apexcharts.js": {
+          "bytesInOutput": 0
         },
         "dist/components/2d-plots/chart-options.js": {
-          "bytesInOutput": 1366
+          "bytesInOutput": 1414
         },
         "dist/apollo/mutations/index.js": {
-          "bytesInOutput": 702
+          "bytesInOutput": 1108
+        },
+        "dist/components/2d-page/helper-2d.js": {
+          "bytesInOutput": 266
         },
         "dist/components/2d-plots/plot-card.js": {
-          "bytesInOutput": 1959
+          "bytesInOutput": 2198
+        },
+        "dist/helpers/plot.js": {
+          "bytesInOutput": 535
         },
         "dist/components/2d-plots/plot-new.js": {
-          "bytesInOutput": 678
+          "bytesInOutput": 1336
+        },
+        "dist/data/plots-data.js": {
+          "bytesInOutput": 447
         },
         "dist/components/2d-plots/index.js": {
-          "bytesInOutput": 410
+          "bytesInOutput": 927
         },
         "dist/components/2d-page/index.js": {
           "bytesInOutput": 255
         },
         "_snowpack/pkg/react-router.js": {
           "bytesInOutput": 0
+        },
+        "dist/data/containers-data.js": {
+          "bytesInOutput": 1728
         },
         "dist/components/gallery-page/gallery-card.js": {
           "bytesInOutput": 138
@@ -3380,6 +3509,9 @@
         },
         "dist/components/project-page/project-new.js": {
           "bytesInOutput": 465
+        },
+        "dist/data/projects-data.js": {
+          "bytesInOutput": 3878
         },
         "dist/components/demo-page/modal-demo.js": {
           "bytesInOutput": 710
@@ -3507,14 +3639,14 @@
         "dist/App.js": {
           "bytesInOutput": 942
         },
-        "_snowpack/pkg/apexcharts.js": {
-          "bytesInOutput": 0
-        },
         "dist/components/demo-page/chart-demo/line-demo.js": {
           "bytesInOutput": 2128
         },
         "dist/components/demo-page/chart-demo/donut-demo.js": {
           "bytesInOutput": 292
+        },
+        "dist/components/demo-page/chart-demo/scatter-demo.js": {
+          "bytesInOutput": 2968
         },
         "dist/components/demo-page/chart-demo/line-scatter-demo.js": {
           "bytesInOutput": 965
@@ -3538,16 +3670,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2384092
+      "bytes": 2393179
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 648394
+          "bytesInOutput": 648511
         }
       },
-      "bytes": 648395
+      "bytes": 648512
     }
   }
 }
