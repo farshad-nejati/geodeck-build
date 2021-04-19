@@ -3410,7 +3410,7 @@
       ]
     },
     "dist/components/playground-layout/navigation-panels.js": {
-      "bytes": 6118,
+      "bytes": 6147,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -4362,7 +4362,7 @@
           "bytesInOutput": 3121
         },
         "dist/components/playground-layout/navigation-panels.js": {
-          "bytesInOutput": 2407
+          "bytesInOutput": 2432
         },
         "dist/components/playground-layout/index.js": {
           "bytesInOutput": 394
@@ -4407,7 +4407,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2483787
+      "bytes": 2483812
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
