@@ -867,7 +867,7 @@
       ]
     },
     "dist/components/playground-layout/styles.js": {
-      "bytes": 1027,
+      "bytes": 1154,
       "imports": [
         {
           "path": "_snowpack/pkg/styled-components.js",
@@ -2386,7 +2386,7 @@
       ]
     },
     "dist/components/project-page/project-new.js": {
-      "bytes": 1173,
+      "bytes": 1193,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3194,7 +3194,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 790775,
+      "bytes": 790778,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -3410,7 +3410,7 @@
       ]
     },
     "dist/components/playground-layout/navigation-panels.js": {
-      "bytes": 5066,
+      "bytes": 5519,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3462,6 +3462,10 @@
         },
         {
           "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/lodash.js",
           "kind": "import-statement"
         }
       ]
@@ -4004,7 +4008,7 @@
           "bytesInOutput": 0
         },
         "_snowpack/pkg/lodash.js": {
-          "bytesInOutput": 76434
+          "bytesInOutput": 76436
         },
         "dist/components/icon/icon-bottom-bar.js": {
           "bytesInOutput": 600
@@ -4028,7 +4032,7 @@
           "bytesInOutput": 0
         },
         "dist/components/playground-layout/styles.js": {
-          "bytesInOutput": 615
+          "bytesInOutput": 703
         },
         "dist/components/studio-page/change-bar.js": {
           "bytesInOutput": 957
@@ -4220,7 +4224,7 @@
           "bytesInOutput": 1603
         },
         "dist/components/project-page/project-new.js": {
-          "bytesInOutput": 465
+          "bytesInOutput": 479
         },
         "dist/data/projects-data.js": {
           "bytesInOutput": 3878
@@ -4358,7 +4362,7 @@
           "bytesInOutput": 3121
         },
         "dist/components/playground-layout/navigation-panels.js": {
-          "bytesInOutput": 2026
+          "bytesInOutput": 2211
         },
         "dist/components/playground-layout/index.js": {
           "bytesInOutput": 394
@@ -4403,16 +4407,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2483569
+      "bytes": 2483858
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 658711
+          "bytesInOutput": 658714
         }
       },
-      "bytes": 658712
+      "bytes": 658715
     }
   }
 }
