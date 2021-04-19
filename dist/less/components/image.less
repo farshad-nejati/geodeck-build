@@ -2,25 +2,43 @@
   #aspect-ratio-parrent();
   #aspect-ratio-parrent.hd();
 
-
   img {
+    padding: 1rem;
     border-radius: inherit;
     .aspect-ratio-child();
+
+    &.dark {
+      background-color: @body-background;
+    }
+
+    &.light {
+      background-color: @white;
+    }
   }
 
   &-preview {
     &-img {
       &-wrapper {
         padding: 2rem;
-        #breakpoints.md({
-        padding: 4rem;
-    });
+        // background-color: @component-background;
+        // #breakpoints.md({
+        //   padding: 4rem;
+        // });
+
+        img {
+          padding: 1rem;
+          width: 60%;
+        }
       }
 
       // padding: 1rem;
       // #breakpoints.md({
       //     padding: 3rem;
       // });
+    }
+
+    &-mask {
+      background-color: @body-background-fade;
     }
 
     &-body {
@@ -37,3 +55,52 @@
     }
   }
 }
+
+.img {
+  &__mask {
+    cursor: default;
+    background-color: @body-background-fade;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 1rem;
+    font-weight: bold;
+    & > * {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      // padding: 0.5rem;
+    }
+
+    &__delete {
+      color: @error-color;
+    }
+    &__title {
+      margin: 0 0.5rem;
+    }
+  }
+
+  &__preview {
+    &__title {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      left: 0;
+      right: 0;
+      font-size: 20px;
+      font-weight: 500;
+      color: @text-color;
+      text-transform: capitalize;
+    }
+  }
+}
+
+// .card__gallery {
+//   &.dark ~ .ant-image-preview-img {
+//     background-color: @component-background !important;
+//   }
+//   &.light ~ [class^="ant-image-preview-img"] {
+//     background-color: @white !important;
+//   }
+// }

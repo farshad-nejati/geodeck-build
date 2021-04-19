@@ -13,6 +13,7 @@
 
     img {
       border-radius: inherit;
+      padding: 1rem;
       .aspect-ratio-child();
     }
   }
@@ -37,10 +38,18 @@
 
   &__gallery {
     border-radius: 0;
-    cursor: pointer;
+    // cursor: pointer;
     border: 1px solid @text-color-secondary-fade;
-    background-color: @image-bg;
+    background-color: @body-background;
+    // background-color: @image-bg;
 
+    &.dark {
+      background-color: @body-background;
+    }
+
+    &.light {
+      background-color: @white;
+    }
     // .ant-card-body {
     //   padding: @padding-md;
     // }
@@ -52,7 +61,7 @@
 
   &__plot {
     .ant-card-body {
-      padding: @space-base;
+      padding: 1rem;
       display: flex;
       flex-direction: column;
       justify-content: center;

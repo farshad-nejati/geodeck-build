@@ -1,7 +1,26 @@
 .apexcharts {
   &-tooltip {
-    background: @component-background !important;
-    color: @text-color !important;
+    background: @primary-color !important;
+    color: @black !important;
+    &-series-group {
+      padding: 4px 10px !important;
+    }
+  }
+
+  &-text {
+    font-size: 11px !important;
+    font-weight: 500 !important;
+  }
+
+  &-legend {
+    &-text {
+      text-transform: capitalize;
+      // font-size: 13px !important;
+      font-weight: 500 !important;
+    }
+    &-marker {
+      margin-right: 5px !important;
+    }
   }
 
   &-menu {
@@ -18,12 +37,20 @@
     //   fill: @text-color !important;
     // }
   }
+
   &-canvas .apexcharts-element-hidden {
     display: none;
   }
   &-toolbar {
     padding: 0 !important;
     right: 0 !important;
+    max-width: initial !important;
+  }
+  &-yaxis,
+  &-xaxis {
+    &-title-text {
+      font-size: 13px !important;
+    }
   }
 }
 
@@ -50,4 +77,24 @@
 .apexcharts-canvas .apexcharts-selection-icon.apexcharts-selected svg,
 .apexcharts-canvas .apexcharts-reset-zoom-icon.apexcharts-selected svg {
   fill: @primary-color !important;
+}
+
+.chart__wrapper {
+  &.bordered {
+    & * .apexcharts-gridlines {
+      &-horizontal {
+        & :first-child,
+        :last-child {
+          stroke: @text-color;
+          stroke-dasharray: 0;
+        }
+      }
+      &-vertical {
+        & :last-child {
+          stroke: @text-color;
+          stroke-dasharray: 0;
+        }
+      }
+    }
+  }
 }

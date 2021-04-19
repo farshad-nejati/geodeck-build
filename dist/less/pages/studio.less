@@ -1,6 +1,6 @@
 // Studio
 @change-bar-height: 30px;
-@tool-bar-width: @layout-header-height; // 45px
+@tool-bar-width: 45px; // 45px
 @border-simulation: #1f8705;
 
 .studio {
@@ -30,7 +30,7 @@
 
   &__change-bar {
     position: absolute;
-    bottom: @space-base;
+    bottom: 10px;
     left: @space-base;
     right: @space-base;
     height: @change-bar-height;
@@ -41,7 +41,6 @@
   }
 
   &__bottom-bar {
-    
     border: 1px solid @body-background;
     border-bottom: none;
     border-top: none;
@@ -80,13 +79,13 @@
     .overflow-scroll(); // mixins
 
     background-color: @component-background;
-    padding: @space-base;
+    // padding: @space-base;
     display: grid;
     grid-template-rows: 1fr min-content 1fr;
     grid-gap: @space-base;
     // align-items: center;
 
-    width: 20vw;
+    width: 24vw;
     opacity: 1;
     visibility: visible;
     transition: width 0.4s ease, opacity 0.2s ease 0.2s,
@@ -104,6 +103,17 @@
       visibility: hidden;
       padding: 0;
     }
+
+    &__chart {
+      padding: @space-base;
+      padding-left: 0;
+      padding-top: 0;
+    }
+    &__live-chart {
+      padding: @space-base;
+      text-transform: capitalize;
+      padding-bottom: 0;
+    }
     .ant-form-item-label > label,
     .ant-input,
     .ant-select,
@@ -119,6 +129,7 @@
     }
 
     &__tabs {
+      padding: 0 1rem;
       overflow: auto;
 
       .ant-tabs-content {

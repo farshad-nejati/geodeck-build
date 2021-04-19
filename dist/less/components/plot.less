@@ -1,25 +1,38 @@
 .plot {
-  overflow: auto;
+  overflow: initial;
   padding: @space-base;
-  padding-left: 0;
-  padding-bottom: 0;
-  margin-bottom: @space-base;
+  // padding-left: 0;
+  // padding-bottom: 0;
+  // margin-bottom: @space-base;
   &__header {
-    font-weight: 500;
-    max-width: 50%;
-    text-transform: capitalize;
-    // margin-bottom: @space-base;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 8px;
+    &__title {
+      font-weight: 700;
+      // max-width: 50%;
+      text-transform: capitalize;
+      // margin-bottom: @space-base;
+    }
+
+    &__delete {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      
+    }
   }
 
   &__chart {
     // margin-bottom: 1rem;
-    min-height: 350px;
+    min-height: 300px;
   }
 
   &__new {
-    padding: @space-base;
+    padding: 1rem;
     border: 1px solid @color-fade;
     display: flex;
+    font-weight: 700;
     flex-direction: column;
     padding-bottom: 0;
     border-radius: @border-radius-base;

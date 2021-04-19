@@ -22,15 +22,18 @@
 //   0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05); // major shadow for layers
 
 @primary-color: #f2ab1f; // primary color for all components
+@secondary-color: #1b3062;
 @heading-color: #d5d5d5; // heading text color -- h1 ... h6
 @text-color: #d5d5d5; // major text color
 @text-color-secondary: #929292; // secondary text color
 // // Background color for `<body>`
 @body-background: #000014;
+@body-background-fade: fadeout(@black, 20%);
+@error-color: #ED220D;
 // // Base background color for most components
 // @component-background: #404040;
 // @component-background: #262626;
-@component-background: #292929;
+@component-background: #262626;
 
 // // Typography
 // // ---
@@ -123,13 +126,14 @@
 
 // // Layout
 @layout-body-background: @body-background;
-@layout-header-background: #1b3062;
+@layout-header-background: @secondary-color;
 @layout-header-height: 45px;
 @layout-header-padding: 0;
 @layout-footer-padding: @layout-footer-padding-vertical
   @layout-footer-padding-horizontal;
-@layout-footer-background: @layout-header-background;
+@layout-footer-background: @secondary-color;
 @layout-sider-background: @component-background;
+@layout-footer-height: 3vh;
 
 // // Menu
 @menu-bg: inherit;
@@ -158,6 +162,7 @@
 @layout-footer-height: 3vh;
 @layout-footer-padding-vertical: 4px;
 @layout-footer-padding-horizontal: 4px;
+
 
 // Banner
 @banner-height: 36px;

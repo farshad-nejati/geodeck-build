@@ -18,11 +18,11 @@
     svg {
       fill: @text-color;
       color: @text-color;
-      stroke: @body-background !important;
+      stroke: @text-color !important;
       &:hover {
         color: @primary-color;
         fill: @primary-color;
-        stroke: @body-background !important;
+        stroke: @primary-color !important;
       }
     }
 
@@ -32,19 +32,14 @@
 
         fill: @primary-color;
 
-        stroke: @body-background !important;
+        stroke: @primary-color !important;
       }
     }
   }
 
   &__bottom-bar {
-    // font-size: @icon-font-size;
-    transform: rotate(-90deg);
-    // height: 0.9em;
   }
 
   &__detail-bar {
-    // font-size: @icon-font-size;
-    transform: rotate(180deg);
   }
 }

@@ -1,10 +1,11 @@
 .studio-3d {
+  grid-template-columns: 1fr min-content;
   display: grid;
-  grid-template-columns: min-content 1fr min-content;
   flex: 1;
 
   &__main {
     display: grid;
+    //height: 100%;
     grid-template-rows: 1fr min-content;
     .overflow-scroll(); // mixins
   }
@@ -24,7 +25,7 @@
 .canvas {
   height: 100%;
   // height: calc(100% - @change-bar-height);
-  overflow: auto;
+  overflow: hidden;
 }
 
 // .detail-bar {

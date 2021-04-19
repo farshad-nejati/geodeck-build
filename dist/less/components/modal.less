@@ -1,0 +1,71 @@
+.ant-modal {
+  //   background-color: @component-background;
+  padding-bottom: 0 !important;
+
+  .ant-modal-header {
+    border-radius: 16px 16px 0 0;
+  }
+
+  .andt-modal-footer {
+    border-radius: 0 0 16px 16px;
+  }
+
+  .ant-modal-header .ant-modal-title {
+    font-size: 20px;
+  }
+
+  .ant-modal-content {
+    border-radius: 16px;
+  }
+
+  &-mask {
+    background-color: @body-background-fade;
+  }
+
+  // &-close {
+  //   top: -22px;
+  //   right: -20px;
+  //   .ant-modal-close-x {
+  //     width: 40px;
+  //     height: 40px;
+  //     background-color: rgba(27, 48, 98, 1);
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //     border-radius: 125px;
+  //   }
+
+  //   //  display: none;
+  // }
+}
+
+.modal {
+  &__gallery {
+    width: calc(100vw - 10rem) !important;
+
+    #breakpoints.lg({
+      width: calc(90vw - 10rem) !important
+    });
+
+    #breakpoints.xl({
+      width: calc(80vw - 10rem) !important
+    });
+
+    #breakpoints.xxl({
+      width: calc(70vw - 10rem) !important
+    });
+    .ant-modal-content {
+      height: calc(100vh - 10rem);
+    }
+
+    .retina({
+      #breakpoints.lg({
+        width: calc(90vw - 10rem) !important
+      });
+  
+      #breakpoints.xxl({
+        width: calc(80vw - 10rem) !important
+      });
+    });
+  }
+}
