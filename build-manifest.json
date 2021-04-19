@@ -3198,7 +3198,7 @@
       "imports": []
     },
     "dist/components/layout/navigation.js": {
-      "bytes": 3682,
+      "bytes": 3623,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -4338,7 +4338,7 @@
           "bytesInOutput": 0
         },
         "dist/components/layout/navigation.js": {
-          "bytesInOutput": 1736
+          "bytesInOutput": 1687
         },
         "dist/components/higher-order-components/with-auth.js": {
           "bytesInOutput": 128
@@ -4407,7 +4407,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2483858
+      "bytes": 2483809
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
