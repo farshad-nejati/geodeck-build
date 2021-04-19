@@ -18,6 +18,28 @@
     border-radius: 16px;
   }
 
+  &-close {
+    width: unset;
+    height: unset;
+    display: flex;
+    line-height: normal;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    .coloring();
+    &-x {
+      width: unset;
+      height: unset;
+      display: flex;
+      line-height: normal;
+      .coloring();
+    }
+  }
+
+  &-confirm-btns {
+    width: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   &-mask {
     background-color: @body-background-fade;
   }

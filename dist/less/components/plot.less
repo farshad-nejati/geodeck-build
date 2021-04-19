@@ -1,3 +1,5 @@
+@chart-height: 300px;
+@plot-height: 400px;
 .plot {
   overflow: initial;
   padding: @space-base;
@@ -25,10 +27,12 @@
 
   &__chart {
     // margin-bottom: 1rem;
-    min-height: 300px;
+    // min-height: @chart-height;
   }
 
   &__new {
+    height: @plot-height;
+
     padding: 1rem;
     border: 1px solid @color-fade;
     display: flex;

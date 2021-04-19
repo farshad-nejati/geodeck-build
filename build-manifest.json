@@ -272,8 +272,8 @@
         }
       ]
     },
-    "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js": {
-      "bytes": 16909,
+    "_snowpack/pkg/common/ZoomInOutlined-2b11508d.js": {
+      "bytes": 17833,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
@@ -295,7 +295,7 @@
       ]
     },
     "_snowpack/pkg/antd.js": {
-      "bytes": 1278717,
+      "bytes": 1277823,
       "imports": [
         {
           "path": "_snowpack/pkg/common/Notification-c50008fb.js",
@@ -314,7 +314,7 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js",
+          "path": "_snowpack/pkg/common/ZoomInOutlined-2b11508d.js",
           "kind": "import-statement"
         },
         {
@@ -352,7 +352,7 @@
       ]
     },
     "_snowpack/pkg/@ant-design/icons.js": {
-      "bytes": 48880,
+      "bytes": 48900,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-3d34cecd.js",
@@ -363,11 +363,11 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js",
+          "path": "_snowpack/pkg/common/ZoomInOutlined-2b11508d.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js",
+          "path": "_snowpack/pkg/common/ZoomInOutlined-2b11508d.js",
           "kind": "import-statement"
         },
         {
@@ -867,7 +867,7 @@
       ]
     },
     "dist/components/playground-layout/styles.js": {
-      "bytes": 1154,
+      "bytes": 1199,
       "imports": [
         {
           "path": "_snowpack/pkg/styled-components.js",
@@ -1201,7 +1201,7 @@
       ]
     },
     "dist/components/detail-bar/detail-chart.js": {
-      "bytes": 1370,
+      "bytes": 1566,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1437,7 +1437,7 @@
       ]
     },
     "dist/components/2d-page/sidebar-container.js": {
-      "bytes": 1984,
+      "bytes": 2040,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2059,7 +2059,7 @@
       "imports": []
     },
     "dist/pages/studio.js": {
-      "bytes": 2914,
+      "bytes": 3025,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3194,11 +3194,11 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 790778,
+      "bytes": 791510,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
-      "bytes": 3623,
+      "bytes": 2903,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3410,7 +3410,7 @@
       ]
     },
     "dist/components/playground-layout/navigation-panels.js": {
-      "bytes": 5519,
+      "bytes": 6118,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3879,7 +3879,7 @@
           "bytesInOutput": 838
         },
         "dist/pages/studio.js": {
-          "bytesInOutput": 749
+          "bytesInOutput": 841
         },
         "dist/pages/gallery.js": {
           "bytesInOutput": 1724
@@ -3947,14 +3947,14 @@
         "_snowpack/pkg/common/Notification-c50008fb.js": {
           "bytesInOutput": 66032
         },
-        "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js": {
-          "bytesInOutput": 9552
+        "_snowpack/pkg/common/ZoomInOutlined-2b11508d.js": {
+          "bytesInOutput": 10141
         },
         "_snowpack/pkg/common/debounce-24d1e451.js": {
           "bytesInOutput": 2456
         },
         "_snowpack/pkg/antd.js": {
-          "bytesInOutput": 534546
+          "bytesInOutput": 533957
         },
         "_snowpack/pkg/@ant-design/icons.js": {
           "bytesInOutput": 32901
@@ -4032,7 +4032,7 @@
           "bytesInOutput": 0
         },
         "dist/components/playground-layout/styles.js": {
-          "bytesInOutput": 703
+          "bytesInOutput": 735
         },
         "dist/components/studio-page/change-bar.js": {
           "bytesInOutput": 957
@@ -4086,7 +4086,7 @@
           "bytesInOutput": 1982
         },
         "dist/components/detail-bar/detail-chart.js": {
-          "bytesInOutput": 560
+          "bytesInOutput": 636
         },
         "dist/components/detail-bar/index.js": {
           "bytesInOutput": 462
@@ -4122,7 +4122,7 @@
           "bytesInOutput": 792
         },
         "dist/components/2d-page/sidebar-container.js": {
-          "bytesInOutput": 716
+          "bytesInOutput": 751
         },
         "dist/components/2d-page/ObjectPoint.js": {
           "bytesInOutput": 427
@@ -4338,7 +4338,7 @@
           "bytesInOutput": 0
         },
         "dist/components/layout/navigation.js": {
-          "bytesInOutput": 1687
+          "bytesInOutput": 1234
         },
         "dist/components/higher-order-components/with-auth.js": {
           "bytesInOutput": 128
@@ -4362,7 +4362,7 @@
           "bytesInOutput": 3121
         },
         "dist/components/playground-layout/navigation-panels.js": {
-          "bytesInOutput": 2211
+          "bytesInOutput": 2407
         },
         "dist/components/playground-layout/index.js": {
           "bytesInOutput": 394
@@ -4407,16 +4407,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2483809
+      "bytes": 2483787
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 658714
+          "bytesInOutput": 659317
         }
       },
-      "bytes": 658715
+      "bytes": 659318
     }
   }
 }
