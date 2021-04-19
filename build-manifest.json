@@ -272,8 +272,8 @@
         }
       ]
     },
-    "_snowpack/pkg/common/PlusOutlined-a90359ce.js": {
-      "bytes": 13659,
+    "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js": {
+      "bytes": 16909,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
@@ -295,7 +295,7 @@
       ]
     },
     "_snowpack/pkg/antd.js": {
-      "bytes": 1281845,
+      "bytes": 1278717,
       "imports": [
         {
           "path": "_snowpack/pkg/common/Notification-c50008fb.js",
@@ -314,7 +314,7 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/PlusOutlined-a90359ce.js",
+          "path": "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js",
           "kind": "import-statement"
         },
         {
@@ -352,7 +352,7 @@
       ]
     },
     "_snowpack/pkg/@ant-design/icons.js": {
-      "bytes": 43361,
+      "bytes": 48880,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-3d34cecd.js",
@@ -363,11 +363,11 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/PlusOutlined-a90359ce.js",
+          "path": "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/PlusOutlined-a90359ce.js",
+          "path": "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js",
           "kind": "import-statement"
         },
         {
@@ -1170,9 +1170,35 @@
         }
       ]
     },
+    "_snowpack/pkg/react-dom/server.js": {
+      "bytes": 20695,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-57a74e37.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
     "dist/components/2d-plots/chart-options.js": {
-      "bytes": 4802,
-      "imports": []
+      "bytes": 5136,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-dom/server.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@ant-design/icons.js",
+          "kind": "import-statement"
+        }
+      ]
     },
     "dist/components/detail-bar/detail-chart.js": {
       "bytes": 1370,
@@ -1629,10 +1655,14 @@
       ]
     },
     "dist/components/2d-plots/plot-chart.js": {
-      "bytes": 5781,
+      "bytes": 6058,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-dom/server.js",
           "kind": "import-statement"
         },
         {
@@ -1668,6 +1698,10 @@
           "kind": "import-statement"
         },
         {
+          "path": "_snowpack/pkg/@ant-design/icons.js",
+          "kind": "import-statement"
+        },
+        {
           "path": "dist/components/2d-page/helper-2d.js",
           "kind": "import-statement"
         },
@@ -1678,7 +1712,7 @@
       ]
     },
     "dist/components/2d-plots/plot-card.js": {
-      "bytes": 5026,
+      "bytes": 5063,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2073,19 +2107,6 @@
         }
       ]
     },
-    "_snowpack/pkg/react-dom/server.js": {
-      "bytes": 20695,
-      "imports": [
-        {
-          "path": "_snowpack/pkg/common/_commonjsHelpers-8c19dec8.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/common/index-57a74e37.js",
-          "kind": "import-statement"
-        }
-      ]
-    },
     "dist/components/gallery-page/gallery-card.js": {
       "bytes": 748,
       "imports": [
@@ -2180,7 +2201,7 @@
       ]
     },
     "dist/components/gallery-page/gallery-sort.js": {
-      "bytes": 829,
+      "bytes": 802,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3173,7 +3194,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 790742,
+      "bytes": 790775,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -3922,17 +3943,17 @@
         "_snowpack/pkg/common/Notification-c50008fb.js": {
           "bytesInOutput": 66032
         },
-        "_snowpack/pkg/common/PlusOutlined-a90359ce.js": {
-          "bytesInOutput": 7315
+        "_snowpack/pkg/common/ZoomInOutlined-24ab6d55.js": {
+          "bytesInOutput": 9552
         },
         "_snowpack/pkg/common/debounce-24d1e451.js": {
           "bytesInOutput": 2456
         },
         "_snowpack/pkg/antd.js": {
-          "bytesInOutput": 536787
+          "bytesInOutput": 534546
         },
         "_snowpack/pkg/@ant-design/icons.js": {
-          "bytesInOutput": 29321
+          "bytesInOutput": 32901
         },
         "dist/components/auth/login-form.js": {
           "bytesInOutput": 1977
@@ -3983,7 +4004,7 @@
           "bytesInOutput": 0
         },
         "_snowpack/pkg/lodash.js": {
-          "bytesInOutput": 76404
+          "bytesInOutput": 76434
         },
         "dist/components/icon/icon-bottom-bar.js": {
           "bytesInOutput": 600
@@ -4054,8 +4075,11 @@
         "dist/components/detail-bar/detailbar-setting.js": {
           "bytesInOutput": 428
         },
+        "_snowpack/pkg/react-dom/server.js": {
+          "bytesInOutput": 19990
+        },
         "dist/components/2d-plots/chart-options.js": {
-          "bytesInOutput": 1632
+          "bytesInOutput": 1982
         },
         "dist/components/detail-bar/detail-chart.js": {
           "bytesInOutput": 560
@@ -4124,10 +4148,10 @@
           "bytesInOutput": 0
         },
         "dist/components/2d-plots/plot-chart.js": {
-          "bytesInOutput": 2267
+          "bytesInOutput": 2217
         },
         "dist/components/2d-plots/plot-card.js": {
-          "bytesInOutput": 1841
+          "bytesInOutput": 1865
         },
         "dist/helpers/plot.js": {
           "bytesInOutput": 869
@@ -4168,9 +4192,6 @@
         "dist/data/containers-data.js": {
           "bytesInOutput": 1728
         },
-        "_snowpack/pkg/react-dom/server.js": {
-          "bytesInOutput": 19983
-        },
         "dist/components/gallery-page/gallery-card.js": {
           "bytesInOutput": 236
         },
@@ -4187,7 +4208,7 @@
           "bytesInOutput": 2570
         },
         "dist/components/gallery-page/gallery-sort.js": {
-          "bytesInOutput": 342
+          "bytesInOutput": 321
         },
         "_snowpack/pkg/antd/lib/card/Meta.js": {
           "bytesInOutput": 51220
@@ -4382,16 +4403,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2479653
+      "bytes": 2483569
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 658683
+          "bytesInOutput": 658711
         }
       },
-      "bytes": 658684
+      "bytes": 658712
     }
   }
 }
