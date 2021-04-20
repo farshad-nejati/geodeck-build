@@ -867,7 +867,7 @@
       ]
     },
     "dist/components/playground-layout/styles.js": {
-      "bytes": 1199,
+      "bytes": 2273,
       "imports": [
         {
           "path": "_snowpack/pkg/styled-components.js",
@@ -880,7 +880,7 @@
       ]
     },
     "dist/components/studio-page/change-bar.js": {
-      "bytes": 2858,
+      "bytes": 2874,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -1201,7 +1201,7 @@
       ]
     },
     "dist/components/detail-bar/detail-chart.js": {
-      "bytes": 1566,
+      "bytes": 1690,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1712,7 +1712,7 @@
       ]
     },
     "dist/components/2d-plots/plot-card.js": {
-      "bytes": 5063,
+      "bytes": 5159,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2328,7 +2328,7 @@
       ]
     },
     "dist/components/project-page/project-card.js": {
-      "bytes": 1052,
+      "bytes": 1141,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2336,6 +2336,10 @@
         },
         {
           "path": "_snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/lodash.js",
           "kind": "import-statement"
         },
         {
@@ -3194,7 +3198,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 791510,
+      "bytes": 791670,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -4032,10 +4036,10 @@
           "bytesInOutput": 0
         },
         "dist/components/playground-layout/styles.js": {
-          "bytesInOutput": 735
+          "bytesInOutput": 1708
         },
         "dist/components/studio-page/change-bar.js": {
-          "bytesInOutput": 957
+          "bytesInOutput": 973
         },
         "dist/apollo/queries/index.js": {
           "bytesInOutput": 2586
@@ -4086,7 +4090,7 @@
           "bytesInOutput": 1982
         },
         "dist/components/detail-bar/detail-chart.js": {
-          "bytesInOutput": 636
+          "bytesInOutput": 702
         },
         "dist/components/detail-bar/index.js": {
           "bytesInOutput": 462
@@ -4155,7 +4159,7 @@
           "bytesInOutput": 2217
         },
         "dist/components/2d-plots/plot-card.js": {
-          "bytesInOutput": 1865
+          "bytesInOutput": 1925
         },
         "dist/helpers/plot.js": {
           "bytesInOutput": 869
@@ -4218,7 +4222,7 @@
           "bytesInOutput": 51220
         },
         "dist/components/project-page/project-card.js": {
-          "bytesInOutput": 357
+          "bytesInOutput": 382
         },
         "dist/components/project-page/project-form.js": {
           "bytesInOutput": 1603
@@ -4407,16 +4411,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2483812
+      "bytes": 2484952
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 659317
+          "bytesInOutput": 659459
         }
       },
-      "bytes": 659318
+      "bytes": 659460
     }
   }
 }
