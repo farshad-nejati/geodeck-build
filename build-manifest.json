@@ -1333,7 +1333,7 @@
       ]
     },
     "dist/components/3d-page/index.js": {
-      "bytes": 5207,
+      "bytes": 5198,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -4114,7 +4114,7 @@
           "bytesInOutput": 7018
         },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 1982
+          "bytesInOutput": 2005
         },
         "dist/helpers/geo-variable.js": {
           "bytesInOutput": 71
@@ -4411,7 +4411,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2484987
+      "bytes": 2485010
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
