@@ -880,7 +880,7 @@
       ]
     },
     "dist/components/studio-page/change-bar.js": {
-      "bytes": 3033,
+      "bytes": 2939,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -1048,7 +1048,7 @@
       ]
     },
     "dist/components/bottom-bar/index.js": {
-      "bytes": 1132,
+      "bytes": 1110,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1333,7 +1333,7 @@
       ]
     },
     "dist/components/3d-page/index.js": {
-      "bytes": 5198,
+      "bytes": 5511,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3198,7 +3198,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 793570,
+      "bytes": 793662,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -4039,7 +4039,7 @@
           "bytesInOutput": 1708
         },
         "dist/components/studio-page/change-bar.js": {
-          "bytesInOutput": 1027
+          "bytesInOutput": 978
         },
         "dist/apollo/queries/index.js": {
           "bytesInOutput": 2586
@@ -4063,7 +4063,7 @@
           "bytesInOutput": 421
         },
         "dist/components/bottom-bar/index.js": {
-          "bytesInOutput": 458
+          "bytesInOutput": 435
         },
         "dist/components/detail-bar/detail-export.js": {
           "bytesInOutput": 1620
@@ -4114,7 +4114,7 @@
           "bytesInOutput": 7018
         },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 2005
+          "bytesInOutput": 2143
         },
         "dist/helpers/geo-variable.js": {
           "bytesInOutput": 71
@@ -4411,16 +4411,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2485010
+      "bytes": 2485076
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 661110
+          "bytesInOutput": 661189
         }
       },
-      "bytes": 661111
+      "bytes": 661190
     }
   }
 }
