@@ -30,14 +30,28 @@
 
   &__change-bar {
     position: absolute;
-    bottom: 10px;
-    left: calc( @space-base - 2px );
+    // bottom: 10px;
+    left: calc(10px - 2px);
+    right: calc(10px - 2px);
+    transition: right 0.2s linear, bottom 0.2s linear;
+
+    &.openDetail {
+      right: calc(24vw + 10px - 2px);
+      .full-screen({
+      right: calc( 25vw + 10px - 2px);
+    });
+      .retina({
+      right: calc( 30vw + 10px - 2px);
+    });
+    }
+
     // left: @space-base;
-    right: @space-base;
+    // right: @space-base;
     height: @change-bar-height;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: transparent;
   }
 
@@ -45,13 +59,12 @@
     border: 1px solid @body-background;
     border-bottom: none;
     border-top: none;
+    bottom: 0;
     background-color: @component-background;
-    // border-right: 1px solid @text-color-secondary-fade;
-    // border-left: 1px solid @text-color-secondary-fade;
     display: grid;
     grid-template-columns: 1fr min-content 1fr min-content 1fr;
     grid-gap: @space-base;
-    padding: @space-base;
+    padding: 10px;
 
     // height: 100%;
     // opacity: 1;
@@ -59,30 +72,13 @@
     // transition: height 0.4s ease, opacity 0.2s ease 0.2s,
     //   visibility 0.2s ease 0.2s;
 
-    // transform-origin: bottom;
-    // transform: translateY(0px);
-    // transition: transform 0.2s linear;
+    transform-origin: bottom;
+    transform: translateY(0px);
+    transition: transform 0.2s linear;
 
-    &.close {
-      // transform: translateY(100px);
-
-      // height: 0;
-      opacity: 0;
-      visibility: hidden;
-      padding: 0;
-
-      & * {
-        display: none;
-      }
-    }
   }
 
   &__detail-bar {
-    // position: relative;
-    // top: 0;
-    // bottom: 0;
-    // right: 0;
-
     .overflow-scroll(); // mixins
 
     background-color: @component-background;
@@ -90,13 +86,11 @@
     display: grid;
     grid-template-rows: 1fr min-content 1fr;
     grid-gap: @space-base;
-    // align-items: center;
+
+    transition: transform 0.4s ease;
+    transform: translateX(0);
 
     width: 24vw;
-    opacity: 1;
-    visibility: visible;
-    transition: width 0.4s ease, opacity 0.2s ease 0.2s,
-      visibility 0.2s ease 0.2s, padding 0.2s ease 0.2s;
     .full-screen({
       width: 25vw;;
     });
@@ -105,10 +99,10 @@
     });
 
     &.close {
-      width: 0;
+      transform: translateX(30vw);
+      z-index: -1;
       opacity: 0;
       visibility: hidden;
-      padding: 0;
     }
 
     &__chart {

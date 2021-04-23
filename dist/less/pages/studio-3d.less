@@ -1,7 +1,11 @@
 .studio-3d {
-  grid-template-columns: 1fr min-content;
   display: grid;
   flex: 1;
+  grid-template-columns: 1fr;
+
+  &.two {
+    grid-template-columns: 1fr min-content;
+  }
 
   &__main {
     display: grid;
@@ -9,6 +13,7 @@
     grid-template-rows: 1fr min-content;
     .overflow-scroll(); // mixins
     overflow: hidden;
+    height: calc(100vh - @layout-footer-height);
   }
 
   &__content {

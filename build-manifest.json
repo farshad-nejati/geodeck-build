@@ -880,7 +880,7 @@
       ]
     },
     "dist/components/studio-page/change-bar.js": {
-      "bytes": 2874,
+      "bytes": 3033,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -1048,7 +1048,7 @@
       ]
     },
     "dist/components/bottom-bar/index.js": {
-      "bytes": 904,
+      "bytes": 1132,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1077,7 +1077,7 @@
       ]
     },
     "dist/components/detail-bar/detail-export.js": {
-      "bytes": 3174,
+      "bytes": 3147,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1333,7 +1333,7 @@
       ]
     },
     "dist/components/3d-page/index.js": {
-      "bytes": 5165,
+      "bytes": 5207,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1939,7 +1939,7 @@
       ]
     },
     "dist/components/left-bar/styles.js": {
-      "bytes": 300,
+      "bytes": 313,
       "imports": [
         {
           "path": "_snowpack/pkg/styled-components.js",
@@ -1948,7 +1948,7 @@
       ]
     },
     "dist/components/left-bar/index.js": {
-      "bytes": 843,
+      "bytes": 713,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -3198,7 +3198,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 791670,
+      "bytes": 793570,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -3414,7 +3414,7 @@
       ]
     },
     "dist/components/playground-layout/navigation-panels.js": {
-      "bytes": 6147,
+      "bytes": 6157,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -4039,7 +4039,7 @@
           "bytesInOutput": 1708
         },
         "dist/components/studio-page/change-bar.js": {
-          "bytesInOutput": 973
+          "bytesInOutput": 1027
         },
         "dist/apollo/queries/index.js": {
           "bytesInOutput": 2586
@@ -4063,10 +4063,10 @@
           "bytesInOutput": 421
         },
         "dist/components/bottom-bar/index.js": {
-          "bytesInOutput": 336
+          "bytesInOutput": 458
         },
         "dist/components/detail-bar/detail-export.js": {
-          "bytesInOutput": 1638
+          "bytesInOutput": 1620
         },
         "dist/components/detail-bar/detail-info.js": {
           "bytesInOutput": 374
@@ -4114,7 +4114,7 @@
           "bytesInOutput": 7018
         },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 2028
+          "bytesInOutput": 1982
         },
         "dist/helpers/geo-variable.js": {
           "bytesInOutput": 71
@@ -4186,10 +4186,10 @@
           "bytesInOutput": 2029
         },
         "dist/components/left-bar/styles.js": {
-          "bytesInOutput": 162
+          "bytesInOutput": 175
         },
         "dist/components/left-bar/index.js": {
-          "bytesInOutput": 302
+          "bytesInOutput": 210
         },
         "dist/components/2d-page/index.js": {
           "bytesInOutput": 474
@@ -4366,7 +4366,7 @@
           "bytesInOutput": 3121
         },
         "dist/components/playground-layout/navigation-panels.js": {
-          "bytesInOutput": 2432
+          "bytesInOutput": 2434
         },
         "dist/components/playground-layout/index.js": {
           "bytesInOutput": 394
@@ -4411,16 +4411,16 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2484952
+      "bytes": 2484987
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 659459
+          "bytesInOutput": 661110
         }
       },
-      "bytes": 659460
+      "bytes": 661111
     }
   }
 }
