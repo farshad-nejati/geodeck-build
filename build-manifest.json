@@ -1034,7 +1034,7 @@
       ]
     },
     "dist/apollo/queries/index.js": {
-      "bytes": 2047,
+      "bytes": 2174,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -1479,7 +1479,7 @@
       ]
     },
     "dist/components/3d-page/index.js": {
-      "bytes": 5340,
+      "bytes": 5457,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -4227,7 +4227,7 @@
           "bytesInOutput": 160
         },
         "dist/apollo/queries/index.js": {
-          "bytesInOutput": 1174
+          "bytesInOutput": 1280
         },
         "dist/components/3d-page/toolbar-3d.js": {
           "bytesInOutput": 977
@@ -4302,7 +4302,7 @@
           "bytesInOutput": 99
         },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 2046
+          "bytesInOutput": 2092
         },
         "dist/helpers/geo-variable.js": {
           "bytesInOutput": 71
@@ -4599,7 +4599,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2485642
+      "bytes": 2485794
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
