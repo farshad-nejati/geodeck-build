@@ -6,7 +6,7 @@
     { "src": "/gallery", "dest": "/" },
     { "src": "/demo", "dest": "/" },
     { "src": "/chart-demo", "dest": "/" },
-    { "src": "/project/(?<pId>[^/]+)/studio/(?<id>[^/]+)", "dest": "/" },
+    { "src": "/project/(?<pId>[^/]+)", "dest": "/" },
     { "src": "/login", "dest": "/" },
     { "src": "/register", "dest": "/" },
     { "src": "/reset-password", "dest": "/" },

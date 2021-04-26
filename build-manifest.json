@@ -2486,7 +2486,7 @@
       ]
     },
     "dist/components/project-page/project-card.js": {
-      "bytes": 1154,
+      "bytes": 1132,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -4410,7 +4410,7 @@
           "bytesInOutput": 51220
         },
         "dist/components/project-page/project-card.js": {
-          "bytesInOutput": 394
+          "bytesInOutput": 378
         },
         "dist/components/project-page/project-form.js": {
           "bytesInOutput": 1603
@@ -4599,7 +4599,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2485794
+      "bytes": 2485778
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
