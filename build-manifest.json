@@ -3263,7 +3263,7 @@
       ]
     },
     "dist/routes.js": {
-      "bytes": 1600,
+      "bytes": 1686,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -4134,7 +4134,7 @@
           "bytesInOutput": 179
         },
         "dist/routes.js": {
-          "bytesInOutput": 903
+          "bytesInOutput": 892
         },
         "dist/components/auth/register-form.js": {
           "bytesInOutput": 1262
@@ -4599,7 +4599,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 2485778
+      "bytes": 2485767
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
