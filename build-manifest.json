@@ -1458,6 +1458,14 @@
       "bytes": 208148,
       "imports": [
         {
+          "path": "_snowpack/pkg/common/react-three-fiber.esm-90a3b0dc.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/three.module-32c921cb.js",
+          "kind": "import-statement"
+        },
+        {
           "path": "_snowpack/pkg/common/extends-7477639a.js",
           "kind": "import-statement"
         },
@@ -1467,14 +1475,6 @@
         },
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/common/react-three-fiber.esm-90a3b0dc.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/common/three.module-32c921cb.js",
           "kind": "import-statement"
         },
         {
@@ -1577,7 +1577,7 @@
       ]
     },
     "dist/components/3d-page/canvas-component.js": {
-      "bytes": 7112,
+      "bytes": 6933,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1624,18 +1624,6 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/antd.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "dist/apollo/mutations/index.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "dist/apollo/queries/index.js",
-          "kind": "import-statement"
-        },
-        {
           "path": "dist/apollo/cache.js",
           "kind": "import-statement"
         }
@@ -1651,7 +1639,7 @@
       ]
     },
     "dist/components/3d-page/index.js": {
-      "bytes": 5409,
+      "bytes": 5379,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -4494,13 +4482,13 @@
           "bytesInOutput": 933
         },
         "dist/components/3d-page/canvas-component.js": {
-          "bytesInOutput": 2540
+          "bytesInOutput": 2574
         },
         "dist/components/hooks/use-client-rect.js": {
           "bytesInOutput": 100
         },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 2205
+          "bytesInOutput": 2184
         },
         "dist/helpers/geo-variable.js": {
           "bytesInOutput": 73
@@ -4797,7 +4785,7 @@
           "bytesInOutput": 123
         }
       },
-      "bytes": 2885572
+      "bytes": 2885585
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
