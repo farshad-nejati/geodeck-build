@@ -1366,7 +1366,7 @@
         }
       ]
     },
-    "_snowpack/pkg/common/three.module-32c921cb.js": {
+    "_snowpack/pkg/common/three.module-c0caa797.js": {
       "bytes": 1158929,
       "imports": []
     },
@@ -1383,11 +1383,11 @@
         }
       ]
     },
-    "_snowpack/pkg/common/react-three-fiber.esm-90a3b0dc.js": {
+    "_snowpack/pkg/common/react-three-fiber.esm-aa454507.js": {
       "bytes": 154603,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/three.module-32c921cb.js",
+          "path": "_snowpack/pkg/common/three.module-c0caa797.js",
           "kind": "import-statement"
         },
         {
@@ -1405,14 +1405,14 @@
       ]
     },
     "_snowpack/pkg/@react-three/drei.js": {
-      "bytes": 208148,
+      "bytes": 208298,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/react-three-fiber.esm-90a3b0dc.js",
+          "path": "_snowpack/pkg/common/react-three-fiber.esm-aa454507.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/three.module-32c921cb.js",
+          "path": "_snowpack/pkg/common/three.module-c0caa797.js",
           "kind": "import-statement"
         },
         {
@@ -1445,11 +1445,11 @@
       "bytes": 290,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/react-three-fiber.esm-90a3b0dc.js",
+          "path": "_snowpack/pkg/common/react-three-fiber.esm-aa454507.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/three.module-32c921cb.js",
+          "path": "_snowpack/pkg/common/three.module-c0caa797.js",
           "kind": "import-statement"
         },
         {
@@ -1495,7 +1495,7 @@
       "bytes": 10708,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/three.module-32c921cb.js",
+          "path": "_snowpack/pkg/common/three.module-c0caa797.js",
           "kind": "import-statement"
         }
       ]
@@ -1560,7 +1560,7 @@
       ]
     },
     "dist/components/3d-page/canvas-component.js": {
-      "bytes": 7736,
+      "bytes": 9127,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1664,7 +1664,7 @@
       ]
     },
     "dist/components/3d-page/index.js": {
-      "bytes": 7160,
+      "bytes": 8690,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1744,6 +1744,10 @@
         },
         {
           "path": "dist/apollo/queries/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/three.js",
           "kind": "import-statement"
         }
       ]
@@ -2440,7 +2444,7 @@
       "imports": []
     },
     "dist/pages/studio.js": {
-      "bytes": 3424,
+      "bytes": 3678,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2492,6 +2496,10 @@
         },
         {
           "path": "dist/helpers/container.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@react-three/drei.js",
           "kind": "import-statement"
         }
       ]
@@ -4302,16 +4310,16 @@
           "bytesInOutput": 621
         },
         "_snowpack/pkg/common/ApolloLink-60d64c57.js": {
-          "bytesInOutput": 28067
+          "bytesInOutput": 28113
         },
         "dist/pages/callback.js": {
           "bytesInOutput": 840
         },
         "_snowpack/pkg/react-lottie.js": {
-          "bytesInOutput": 285283
+          "bytesInOutput": 285355
         },
         "dist/pages/studio.js": {
-          "bytesInOutput": 1076
+          "bytesInOutput": 1170
         },
         "dist/pages/gallery.js": {
           "bytesInOutput": 1926
@@ -4332,13 +4340,13 @@
           "bytesInOutput": 477
         },
         "_snowpack/pkg/common/index-57a74e37.js": {
-          "bytesInOutput": 7195
+          "bytesInOutput": 7197
         },
         "_snowpack/pkg/react.js": {
           "bytesInOutput": 136
         },
         "_snowpack/pkg/common/index-8dbeb7e4.js": {
-          "bytesInOutput": 124685
+          "bytesInOutput": 124702
         },
         "_snowpack/pkg/react-dom.js": {
           "bytesInOutput": 0
@@ -4353,7 +4361,7 @@
           "bytesInOutput": 211
         },
         "_snowpack/pkg/common/history-7eb01bc8.js": {
-          "bytesInOutput": 9647
+          "bytesInOutput": 9661
         },
         "_snowpack/pkg/common/index-38b769d8.js": {
           "bytesInOutput": 2446
@@ -4377,7 +4385,7 @@
           "bytesInOutput": 2241
         },
         "_snowpack/pkg/common/Notification-a0ea27d4.js": {
-          "bytesInOutput": 66145
+          "bytesInOutput": 66176
         },
         "_snowpack/pkg/common/ZoomInOutlined-c25a3caf.js": {
           "bytesInOutput": 10653
@@ -4386,7 +4394,7 @@
           "bytesInOutput": 2456
         },
         "_snowpack/pkg/antd.js": {
-          "bytesInOutput": 542655
+          "bytesInOutput": 542925
         },
         "_snowpack/pkg/@ant-design/icons.js": {
           "bytesInOutput": 29358
@@ -4422,7 +4430,7 @@
           "bytesInOutput": 2381
         },
         "_snowpack/pkg/common/index-ed3c0702.js": {
-          "bytesInOutput": 83580
+          "bytesInOutput": 83583
         },
         "_snowpack/pkg/common/parser-1649b75f.js": {
           "bytesInOutput": 32498
@@ -4440,7 +4448,7 @@
           "bytesInOutput": 0
         },
         "_snowpack/pkg/lodash.js": {
-          "bytesInOutput": 76904
+          "bytesInOutput": 76907
         },
         "dist/components/icon/icon-bottom-bar.js": {
           "bytesInOutput": 600
@@ -4458,7 +4466,7 @@
           "bytesInOutput": 1172
         },
         "_snowpack/pkg/common/styled-components.browser.esm-524dae13.js": {
-          "bytesInOutput": 29458
+          "bytesInOutput": 29469
         },
         "_snowpack/pkg/styled-components.js": {
           "bytesInOutput": 0
@@ -4524,7 +4532,7 @@
           "bytesInOutput": 375
         },
         "_snowpack/pkg/common/apexcharts.common-db522cbf.js": {
-          "bytesInOutput": 479672
+          "bytesInOutput": 479675
         },
         "_snowpack/pkg/react-apexcharts.js": {
           "bytesInOutput": 3737
@@ -4547,23 +4555,23 @@
         "dist/components/detail-bar/index.js": {
           "bytesInOutput": 465
         },
-        "_snowpack/pkg/common/three.module-32c921cb.js": {
-          "bytesInOutput": 600756
+        "_snowpack/pkg/common/three.module-c0caa797.js": {
+          "bytesInOutput": 600915
         },
         "_snowpack/pkg/common/shallow-a2dfef9f.js": {
           "bytesInOutput": 1769
         },
-        "_snowpack/pkg/common/react-three-fiber.esm-90a3b0dc.js": {
-          "bytesInOutput": 114264
+        "_snowpack/pkg/common/react-three-fiber.esm-aa454507.js": {
+          "bytesInOutput": 114304
         },
         "_snowpack/pkg/@react-three/drei.js": {
-          "bytesInOutput": 96321
+          "bytesInOutput": 96420
         },
         "_snowpack/pkg/@react-three/fiber.js": {
           "bytesInOutput": 0
         },
         "_snowpack/pkg/leva.js": {
-          "bytesInOutput": 165250
+          "bytesInOutput": 165293
         },
         "_snowpack/pkg/three.js": {
           "bytesInOutput": 0
@@ -4581,7 +4589,7 @@
           "bytesInOutput": 885
         },
         "dist/components/3d-page/canvas-component.js": {
-          "bytesInOutput": 3045
+          "bytesInOutput": 3734
         },
         "dist/components/hooks/use-client-rect.js": {
           "bytesInOutput": 100
@@ -4593,7 +4601,7 @@
           "bytesInOutput": 76
         },
         "dist/components/3d-page/index.js": {
-          "bytesInOutput": 2835
+          "bytesInOutput": 3417
         },
         "dist/helpers/geo-variable.js": {
           "bytesInOutput": 73
@@ -4623,7 +4631,7 @@
           "bytesInOutput": 358
         },
         "_snowpack/pkg/apollo-upload-client.js": {
-          "bytesInOutput": 2999
+          "bytesInOutput": 3003
         },
         "_snowpack/pkg/@apollo/client/link/error.js": {
           "bytesInOutput": 881
@@ -4641,7 +4649,7 @@
           "bytesInOutput": 2538
         },
         "dist/components/2d-plots/plot-card.js": {
-          "bytesInOutput": 1923
+          "bytesInOutput": 1926
         },
         "dist/helpers/plot.js": {
           "bytesInOutput": 873
@@ -4665,7 +4673,7 @@
           "bytesInOutput": 173
         },
         "dist/components/2d-plots/index.js": {
-          "bytesInOutput": 2018
+          "bytesInOutput": 2037
         },
         "dist/components/left-bar/styles.js": {
           "bytesInOutput": 177
@@ -4695,13 +4703,13 @@
           "bytesInOutput": 170
         },
         "dist/components/gallery-page/gallery-preview.js": {
-          "bytesInOutput": 3181
+          "bytesInOutput": 3183
         },
         "dist/components/gallery-page/gallery-sort.js": {
           "bytesInOutput": 322
         },
         "_snowpack/pkg/antd/lib/card/Meta.js": {
-          "bytesInOutput": 51320
+          "bytesInOutput": 51350
         },
         "dist/components/project-page/project-card.js": {
           "bytesInOutput": 379
@@ -4896,7 +4904,7 @@
           "bytesInOutput": 123
         }
       },
-      "bytes": 3196971
+      "bytes": 3199207
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
