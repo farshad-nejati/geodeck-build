@@ -235,8 +235,8 @@
       "bytes": 6350,
       "imports": []
     },
-    "_snowpack/pkg/common/Notification-a0ea27d4.js": {
-      "bytes": 184095,
+    "_snowpack/pkg/common/Notification-59033b28.js": {
+      "bytes": 184115,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
@@ -272,8 +272,8 @@
         }
       ]
     },
-    "_snowpack/pkg/common/ZoomInOutlined-c25a3caf.js": {
-      "bytes": 18720,
+    "_snowpack/pkg/common/ZoomInOutlined-78aaa5ca.js": {
+      "bytes": 21550,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-57a74e37.js",
@@ -295,10 +295,10 @@
       ]
     },
     "_snowpack/pkg/antd.js": {
-      "bytes": 1297575,
+      "bytes": 1353089,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/Notification-a0ea27d4.js",
+          "path": "_snowpack/pkg/common/Notification-59033b28.js",
           "kind": "import-statement"
         },
         {
@@ -314,7 +314,7 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/ZoomInOutlined-c25a3caf.js",
+          "path": "_snowpack/pkg/common/ZoomInOutlined-78aaa5ca.js",
           "kind": "import-statement"
         },
         {
@@ -352,7 +352,7 @@
       ]
     },
     "_snowpack/pkg/@ant-design/icons.js": {
-      "bytes": 44290,
+      "bytes": 43356,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-07c3951f.js",
@@ -363,11 +363,11 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/ZoomInOutlined-c25a3caf.js",
+          "path": "_snowpack/pkg/common/ZoomInOutlined-78aaa5ca.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/ZoomInOutlined-c25a3caf.js",
+          "path": "_snowpack/pkg/common/ZoomInOutlined-78aaa5ca.js",
           "kind": "import-statement"
         },
         {
@@ -1626,7 +1626,7 @@
       ]
     },
     "dist/apollo/mutations/index.js": {
-      "bytes": 3149,
+      "bytes": 3318,
       "imports": [
         {
           "path": "_snowpack/pkg/@apollo/client.js",
@@ -2674,7 +2674,7 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/Notification-a0ea27d4.js",
+          "path": "_snowpack/pkg/common/Notification-59033b28.js",
           "kind": "import-statement"
         },
         {
@@ -2748,8 +2748,8 @@
         }
       ]
     },
-    "dist/components/project-page/project-form.js": {
-      "bytes": 4056,
+    "dist/components/project-page/project-upload.js": {
+      "bytes": 3740,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -2757,6 +2757,44 @@
         },
         {
           "path": "_snowpack/pkg/lodash.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/antd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@ant-design/icons.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/project-page/project-form-create.js": {
+      "bytes": 2323,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/lodash.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/antd.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/project-page/project-new.js": {
+      "bytes": 4112,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-router-dom.js",
           "kind": "import-statement"
         },
         {
@@ -2778,18 +2816,9 @@
         {
           "path": "dist/apollo/cache.js",
           "kind": "import-statement"
-        }
-      ]
-    },
-    "dist/components/project-page/project-new.js": {
-      "bytes": 1603,
-      "imports": [
-        {
-          "path": "_snowpack/pkg/react.js",
-          "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/antd.js",
+          "path": "dist/components/project-page/project-upload.js",
           "kind": "import-statement"
         },
         {
@@ -2797,15 +2826,7 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/project-page/project-form.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/@apollo/client.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "dist/apollo/cache.js",
+          "path": "dist/components/project-page/project-form-create.js",
           "kind": "import-statement"
         }
       ]
@@ -3598,7 +3619,7 @@
       ]
     },
     "dist/less/main.css": {
-      "bytes": 794684,
+      "bytes": 795068,
       "imports": []
     },
     "dist/components/layout/navigation.js": {
@@ -3813,11 +3834,15 @@
         }
       ]
     },
-    "dist/components/project-page/project-edit.js": {
-      "bytes": 1269,
+    "dist/components/project-page/project-form-update.js": {
+      "bytes": 3339,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/lodash.js",
           "kind": "import-statement"
         },
         {
@@ -3825,7 +3850,28 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/components/project-page/project-form.js",
+          "path": "_snowpack/pkg/@apollo/client.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/mutations/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/apollo/queries/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/project-page/project-edit.js": {
+      "bytes": 1305,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/antd.js",
           "kind": "import-statement"
         },
         {
@@ -3838,6 +3884,10 @@
         },
         {
           "path": "dist/apollo/cache.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/project-page/project-form-update.js",
           "kind": "import-statement"
         }
       ]
@@ -4310,7 +4360,7 @@
           "bytesInOutput": 621
         },
         "_snowpack/pkg/common/ApolloLink-60d64c57.js": {
-          "bytesInOutput": 28113
+          "bytesInOutput": 28182
         },
         "dist/pages/callback.js": {
           "bytesInOutput": 840
@@ -4384,20 +4434,20 @@
         "_snowpack/pkg/common/process-2545f00a.js": {
           "bytesInOutput": 2241
         },
-        "_snowpack/pkg/common/Notification-a0ea27d4.js": {
-          "bytesInOutput": 66176
+        "_snowpack/pkg/common/Notification-59033b28.js": {
+          "bytesInOutput": 66174
         },
-        "_snowpack/pkg/common/ZoomInOutlined-c25a3caf.js": {
-          "bytesInOutput": 10653
+        "_snowpack/pkg/common/ZoomInOutlined-78aaa5ca.js": {
+          "bytesInOutput": 12414
         },
         "_snowpack/pkg/common/debounce-24d1e451.js": {
           "bytesInOutput": 2456
         },
         "_snowpack/pkg/antd.js": {
-          "bytesInOutput": 542925
+          "bytesInOutput": 566480
         },
         "_snowpack/pkg/@ant-design/icons.js": {
-          "bytesInOutput": 29358
+          "bytesInOutput": 28750
         },
         "dist/components/auth/login-form.js": {
           "bytesInOutput": 1977
@@ -4595,7 +4645,7 @@
           "bytesInOutput": 100
         },
         "dist/apollo/mutations/index.js": {
-          "bytesInOutput": 2120
+          "bytesInOutput": 2266
         },
         "dist/components/hooks/use-callback-ref.js": {
           "bytesInOutput": 76
@@ -4714,11 +4764,14 @@
         "dist/components/project-page/project-card.js": {
           "bytesInOutput": 379
         },
-        "dist/components/project-page/project-form.js": {
-          "bytesInOutput": 1879
+        "dist/components/project-page/project-upload.js": {
+          "bytesInOutput": 1598
+        },
+        "dist/components/project-page/project-form-create.js": {
+          "bytesInOutput": 1129
         },
         "dist/components/project-page/project-new.js": {
-          "bytesInOutput": 560
+          "bytesInOutput": 1425
         },
         "dist/data/projects-data.js": {
           "bytesInOutput": 3879
@@ -4858,8 +4911,11 @@
         "dist/components/playground-layout/navigation-panels.js": {
           "bytesInOutput": 2521
         },
+        "dist/components/project-page/project-form-update.js": {
+          "bytesInOutput": 1613
+        },
         "dist/components/project-page/project-edit.js": {
-          "bytesInOutput": 404
+          "bytesInOutput": 413
         },
         "dist/components/playground-layout/index.js": {
           "bytesInOutput": 396
@@ -4904,16 +4960,16 @@
           "bytesInOutput": 123
         }
       },
-      "bytes": 3199207
+      "bytes": 3227463
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/less/main.css": {
-          "bytesInOutput": 661941
+          "bytesInOutput": 662267
         }
       },
-      "bytes": 661942
+      "bytes": 662268
     }
   }
 }

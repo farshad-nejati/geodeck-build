@@ -64,4 +64,25 @@
       padding-top: @padding-lg;
     }
   }
+
+  &__modal {
+    & .ant-result {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+
+      & > :not(:last-child) {
+        margin-bottom: 1rem !important;
+      }
+      &-title {
+        font-size: 18px !important;
+      }
+      &-extra {
+        display: flex;
+        // grid-template-columns: 1fr 1fr;
+        // grid-gap: 1rem;
+        max-width: 60%;
+        margin: auto;
+      }
+    }
+  }
 }
