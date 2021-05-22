@@ -2749,7 +2749,7 @@
       ]
     },
     "dist/components/project-page/project-upload.js": {
-      "bytes": 3740,
+      "bytes": 3890,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -4765,7 +4765,7 @@
           "bytesInOutput": 379
         },
         "dist/components/project-page/project-upload.js": {
-          "bytesInOutput": 1598
+          "bytesInOutput": 1670
         },
         "dist/components/project-page/project-form-create.js": {
           "bytesInOutput": 1129
@@ -4960,7 +4960,7 @@
           "bytesInOutput": 123
         }
       },
-      "bytes": 3227463
+      "bytes": 3227535
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
