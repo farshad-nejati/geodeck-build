@@ -1,0 +1,1 @@
+import e from"https://cdn.skypack.dev/react";import{Card as r}from"https://cdn.skypack.dev/antd";import d from"./auth-header.js";const c=({children:t,desc:a})=>e.createElement("div",{className:"auth"},e.createElement(r,{className:"auth__card card__auth",bordered:!1},e.createElement(d,{desc:a}),t));export default c;

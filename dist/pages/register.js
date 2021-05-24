@@ -1,0 +1,1 @@
+import t from"https://cdn.skypack.dev/react";import e from"../components/auth/auth-card.js";import r from"../components/auth/register-form.js";const o=()=>t.createElement(e,{desc:"Create an account"},t.createElement(r,null));export default o;

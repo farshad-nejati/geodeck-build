@@ -1,0 +1,1 @@
+import r from"https://cdn.skypack.dev/react";import u from"https://cdn.skypack.dev/lodash/debounce";const d=({data:e,onSave:n,interval:s=2e3,onError:a=console.error,onSuccess:o})=>{const t=r.useCallback(u(async l=>{try{console.count("call decobounce save!");const c=await n(l);o&&o(c)}catch(c){a(c)}},s),[]);return r.useEffect(()=>{e&&t(e)},[e,t]),null};export default d;

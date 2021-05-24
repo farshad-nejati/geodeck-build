@@ -1,0 +1,1 @@
+import e from"https://cdn.skypack.dev/react";import{Typography as l}from"https://cdn.skypack.dev/antd";import c from"./gallery-category.js";const{Title:n,Text:g}=l,o=({filters:t,activeFilter:r,onFilter:a})=>e.createElement("div",{className:"gallery__sidebar"},e.createElement(c,{filters:t,activeFilter:r,onFilter:a}));export default o;

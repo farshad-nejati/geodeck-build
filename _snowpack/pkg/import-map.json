@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@radix-ui/react-icons": "./@radix-ui/react-icons.js",
+    "antd": "./antd.js",
+    "react": "./react.js",
+    "react-apexcharts": "./react-apexcharts.js"
+  }
+}

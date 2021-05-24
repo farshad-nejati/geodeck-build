@@ -1,0 +1,1 @@
+export const CONTAINER_STATE={id:null,name:"",updatedAt:null,variables:[],isActive:!1,activeVariable:"",pointId:null,lineId:null,isPoint:!0,data:{}},PLOT_STATE={id:null,name:"",type:"",isActive:!1,variable:{},points:[],lines:[],createdAt:null,updatedAt:null};

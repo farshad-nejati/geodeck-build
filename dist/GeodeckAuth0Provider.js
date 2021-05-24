@@ -1,0 +1,1 @@
+import e from"https://cdn.skypack.dev/react";import{Auth0Provider as r}from"https://cdn.skypack.dev/@auth0/auth0-react";import{AUTH0_DOMAIN as c,AUTH0_CLIENT_ID as o,AUTH0_AUDIENCE as a,AUTH0_SCOPE as i}from"./constant.js";const d=t=>e.createElement(r,{domain:c,clientId:o,redirectUri:`${window.location.origin}/callback`,audience:a,scope:i},t.children);export default d;
