@@ -1,4 +1,4 @@
-import i from"https://cdn.skypack.dev/styled-components";import{Affix as n}from"https://cdn.skypack.dev/antd";const l="108px";export const AffixPanel=i(n)`
+import i from"../../../_snowpack/pkg/styled-components.js";import{Affix as n}from"../../../_snowpack/pkg/antd.js";const l="108px";export const AffixPanel=i(n)`
   position: absolute;
   height: 45px;
   z-index: 12;

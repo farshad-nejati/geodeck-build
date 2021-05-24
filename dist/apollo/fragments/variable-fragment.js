@@ -1,4 +1,4 @@
-import{gql as e}from"https://cdn.skypack.dev/@apollo/client";import{CORE_GEOMETRIC_OBJECT_FIELDS as a}from"./object-fragment.js";export const CORE_BASIC_VARIABLE_FIELDS=e`
+import{gql as e}from"../../../_snowpack/pkg/@apollo/client.js";import{CORE_GEOMETRIC_OBJECT_FIELDS as a}from"./object-fragment.js";export const CORE_BASIC_VARIABLE_FIELDS=e`
   fragment BasicVariableFields on VariableBasicModel {
     id
     name

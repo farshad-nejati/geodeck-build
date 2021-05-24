@@ -1,4 +1,4 @@
-import e from"https://cdn.skypack.dev/styled-components";export const SiderHeaderCaption=e.div`
+import e from"../../../_snowpack/pkg/styled-components.js";export const SiderHeaderCaption=e.div`
   font-size: 18px;
   font-weight: 500;
 `,SiderHeader=e.div`

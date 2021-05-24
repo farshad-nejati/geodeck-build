@@ -1,4 +1,4 @@
-import{gql as t}from"https://cdn.skypack.dev/@apollo/client";export const CORE_PROJECT_FIELDS=t`
+import{gql as e}from"../../../_snowpack/pkg/@apollo/client.js";export const CORE_PROJECT_FIELDS=e`
   fragment CoreProjectFields on ProjectModel {
     id
     title

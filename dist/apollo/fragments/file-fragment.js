@@ -1,4 +1,4 @@
-import{gql as e}from"https://cdn.skypack.dev/@apollo/client";export const CORE_FILE_FIELDS=e`
+import{gql as e}from"../../../_snowpack/pkg/@apollo/client.js";export const CORE_FILE_FIELDS=e`
   fragment CoreFileFields on FileModel {
     id
     title

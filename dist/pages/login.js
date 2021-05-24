@@ -1,1 +1,1 @@
-import t from"https://cdn.skypack.dev/react";import e from"../components/auth/login-form.js";import o from"../components/auth/auth-card.js";const r=()=>t.createElement(o,{desc:"immerse yourself in Geo data"},t.createElement(e,null));export default r;
+import e from"../../_snowpack/pkg/react.js";import o from"../components/auth/login-form.js";import t from"../components/auth/auth-card.js";const r=()=>e.createElement(t,{desc:"immerse yourself in Geo data"},e.createElement(o,null));export default r;

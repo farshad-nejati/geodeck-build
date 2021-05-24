@@ -1,1 +1,1 @@
-import*as t from"../_snowpack/env.js";import.meta.env=t;import e from"https://cdn.skypack.dev/react";import r from"https://cdn.skypack.dev/react-dom";import n from"./App.js";r.render(e.createElement(e.StrictMode,null,e.createElement(n,null)),document.getElementById("root"));
+import*as t from"../_snowpack/env.js";import.meta.env=t;import e from"../_snowpack/pkg/react.js";import o from"../_snowpack/pkg/react-dom.js";import r from"./App.js";o.render(e.createElement(e.StrictMode,null,e.createElement(r,null)),document.getElementById("root"));

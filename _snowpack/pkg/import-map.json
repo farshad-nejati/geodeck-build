@@ -1,8 +1,36 @@
 {
   "imports": {
+    "@ant-design/icons": "./@ant-design/icons.js",
+    "@apollo/client": "./@apollo/client.js",
+    "@apollo/client/link/error": "./@apollo/client/link/error.js",
+    "@auth0/auth0-react": "./@auth0/auth0-react.js",
     "@radix-ui/react-icons": "./@radix-ui/react-icons.js",
+    "@react-three/drei": "./@react-three/drei.js",
+    "@react-three/fiber": "./@react-three/fiber.js",
     "antd": "./antd.js",
+    "antd/lib/card/Meta": "./antd/lib/card/Meta.js",
+    "apexcharts": "./apexcharts.js",
+    "apollo-upload-client": "./apollo-upload-client.js",
+    "axios": "./axios.js",
+    "graphql": "./graphql.js",
+    "grommet-icons": "./grommet-icons.js",
+    "history": "./history.js",
+    "leva": "./leva.js",
+    "lodash": "./lodash.js",
+    "lodash/debounce": "./lodash/debounce.js",
     "react": "./react.js",
-    "react-apexcharts": "./react-apexcharts.js"
+    "react-apexcharts": "./react-apexcharts.js",
+    "react-dom": "./react-dom.js",
+    "react-dom/server": "./react-dom/server.js",
+    "react-lottie": "./react-lottie.js",
+    "react-router": "./react-router.js",
+    "react-router-dom": "./react-router-dom.js",
+    "styled-components": "./styled-components.js",
+    "three": "./three.js",
+    "three/examples/jsm/postprocessing/EffectComposer": "./three/examples/jsm/postprocessing/EffectComposer.js",
+    "three/examples/jsm/postprocessing/OutlinePass": "./three/examples/jsm/postprocessing/OutlinePass.js",
+    "three/examples/jsm/postprocessing/RenderPass": "./three/examples/jsm/postprocessing/RenderPass.js",
+    "three/examples/jsm/postprocessing/ShaderPass": "./three/examples/jsm/postprocessing/ShaderPass.js",
+    "three/examples/jsm/shaders/FXAAShader": "./three/examples/jsm/shaders/FXAAShader.js"
   }
 }

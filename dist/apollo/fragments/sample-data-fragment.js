@@ -1,4 +1,4 @@
-import{gql as a}from"https://cdn.skypack.dev/@apollo/client";export const CORE_SAMPLE_DATA_FIELDS=a`
+import{gql as o}from"../../../_snowpack/pkg/@apollo/client.js";export const CORE_SAMPLE_DATA_FIELDS=o`
   fragment CoreSampleDataFields on SampleDataModel {
       x
       y

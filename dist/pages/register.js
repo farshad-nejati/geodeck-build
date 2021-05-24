@@ -1,1 +1,1 @@
-import t from"https://cdn.skypack.dev/react";import e from"../components/auth/auth-card.js";import r from"../components/auth/register-form.js";const o=()=>t.createElement(e,{desc:"Create an account"},t.createElement(r,null));export default o;
+import e from"../../_snowpack/pkg/react.js";import t from"../components/auth/auth-card.js";import r from"../components/auth/register-form.js";const o=()=>e.createElement(t,{desc:"Create an account"},e.createElement(r,null));export default o;

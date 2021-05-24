@@ -1,1 +1,1 @@
-import e from"https://cdn.skypack.dev/react";const t=r=>e.createElement("div",null,"loading...");export default t;
+import e from"../../../_snowpack/pkg/react.js";const r=t=>e.createElement("div",null,"loading...");export default r;
