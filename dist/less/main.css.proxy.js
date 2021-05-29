@@ -30215,6 +30215,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.studio__player__time-setting .ant-input-number {
+  min-width: 100px;
+}
 .studio__player__slider {
   width: 75%;
   margin-top: 0;

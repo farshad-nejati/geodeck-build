@@ -1,1 +1,1 @@
-export{C as Canvas,f as extend,a as useFrame,u as useThree}from"../common/react-three-fiber.esm-aa454507.js";import"../common/three.module-c0caa797.js";import"../common/index-57a74e37.js";import"../common/_commonjsHelpers-8c19dec8.js";import"../common/shallow-a2dfef9f.js";
+export{C as Canvas,f as extend,a as useFrame,u as useThree}from"../common/react-three-fiber.esm-efb319a1.js";import"../common/three.module-c0caa797.js";import"../common/index-5286cf50.js";import"../common/_commonjsHelpers-b3efd043.js";import"../common/shallow-08800555.js";

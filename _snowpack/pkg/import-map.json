@@ -16,6 +16,7 @@
     "grommet-icons": "./grommet-icons.js",
     "history": "./history.js",
     "leva": "./leva.js",
+    "localforage": "./localforage.js",
     "lodash": "./lodash.js",
     "lodash/debounce": "./lodash/debounce.js",
     "react": "./react.js",
@@ -31,6 +32,7 @@
     "three/examples/jsm/postprocessing/OutlinePass": "./three/examples/jsm/postprocessing/OutlinePass.js",
     "three/examples/jsm/postprocessing/RenderPass": "./three/examples/jsm/postprocessing/RenderPass.js",
     "three/examples/jsm/postprocessing/ShaderPass": "./three/examples/jsm/postprocessing/ShaderPass.js",
-    "three/examples/jsm/shaders/FXAAShader": "./three/examples/jsm/shaders/FXAAShader.js"
+    "three/examples/jsm/shaders/FXAAShader": "./three/examples/jsm/shaders/FXAAShader.js",
+    "xlsx": "./xlsx.js"
   }
 }
